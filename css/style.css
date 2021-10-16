@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.main {
+  padding-top: 1rem;
+  align-items: center;
+}
+
+body {
+  background-color: whitesmoke;
+  cursor: default;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar__logo {
+  width: 6vw;
+  margin: 0rem;
+  background-image: url(../Img/mountain.png);
+  background-size: cover;
+}
+.navBar__brand {
+  font-size: 1.7rem;
+  height: 2.5rem;
+  color: #016236;
+}
+.navBar__link {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #7e7d73;
+  margin: 0.7rem;
+  padding: 0rem;
+}
+.navBar__link:hover {
+  color: whitesmoke;
+  background-color: #7e7d73;
+  text-decoration: none;
+  border-radius: 0.15rem;
+  padding: 0.25rem;
+  margin: 0rem;
+}
+.navBar__button {
+  margin: 1rem;
+  font-size: 1.7rem;
+  display: inline-block;
+}
+.navBar__button:hover {
+  color: whitesmoke;
+  background-color: #016236;
+  border: 0rem;
+}
+
+/* carousel index */
+.indexHero {
+  display: flex;
+  flex-direction: column;
+}
+.indexHero__carouselIndex {
+  margin: 8rem 1rem 1rem 1rem;
+  display: inline-grid;
+  align-items: center;
+  justify-items: center;
+}
+.indexHero__imgCarousel {
+  width: 30rem;
+}
+
+/* buscador de salidas */
+.card__group {
+  margin: 1.5rem 0rem 0rem 0rem;
+  background: whitesmoke;
+}
+
+.card {
+  margin: 0.5rem 0rem 0rem 0rem;
+  display: inline-block;
+  background-color: whitesmoke;
+  /* tarjeta titulo */
+  /* imagen buscador de salidas */
+}
+.card__firstCard {
+  border: none;
+}
+.card__indexH1 {
+  color: #016236;
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 3rem;
+  letter-spacing: 0.5rem;
+  justify-items: center;
+  margin: 1rem 2rem 1rem 3rem;
+}
+.card__imgBuscador {
+  width: 25rem;
+  height: auto;
+  background-size: cover;
+  margin: 0.5rem 1rem 0.5rem 5rem;
+}
+.card__title {
+  font-size: 1.7rem;
+  height: 3rem;
+  color: #016236;
+  letter-spacing: 0.5rem;
+  margin-left: 5rem;
+}
+.card__title:hover {
+  font-size: 2.4rem;
+  transition: all 200ms ease;
+  letter-spacing: 0.7rem;
+}
+.card__body {
+  font-size: 1.2rem;
+  color: #7e7d73;
+  letter-spacing: 0.3rem;
+  margin: 1rem 0rem 1rem 5rem;
+  line-height: 1.5rem;
+  width: 25rem;
+}
+
+/* blog shop index */
+.indexBlog {
+  display: grid;
+  justify-items: center;
+  margin-left: 0.5rem;
+}
+.indexBlog__img {
+  width: 25rem;
+  height: auto;
+  background-size: cover;
+}
+.indexBlog__title {
+  font-size: 1.36rem;
+  height: 3rem;
+  color: #016236;
+  margin: 0.5rem 0rem 0rem 1.3rem;
+}
+.indexBlog__body {
+  width: 24rem;
+  height: 10rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  color: #7e7d73;
+  padding-left: 1rem;
+}
+.indexBlog__button {
+  border: 0rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  margin: 0rem 0rem 5rem 1rem;
+  background-color: whitesmoke;
+  color: #016236;
+  text-align: center;
+}
+.indexBlog__button:hover {
+  background-color: #016236;
+  color: whitesmoke;
+}
+
+/* footer */
+.footer {
+  background-color: #7e7d73;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer__logo {
+  height: 5vh;
+}
+.footer__shortcuts {
+  width: 10rem;
+  margin: 0.5rem 0rem 0rem 13rem;
+}
+.footer__link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  margin: 0rem 0.8rem 0rem 0rem;
+}
+.footer__link:hover {
+  text-decoration: none;
+  margin: 0rem;
+  padding: 0rem;
+  color: #016236;
+}
+
+.h1, .shopH1, #nosotrosH1, .excursionesH1 {
+  font-size: 2rem;
+  height: 2.8rem;
+  letter-spacing: 0.5rem;
+  color: #016236;
+  background-color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  margin: 1rem 0rem 1.8rem 0rem;
+}
+
+.excursionesH1 {
+  margin-top: 6rem;
+  letter-spacing: 0.2rem;
+}
+
+.month__title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 3rem;
+  color: #7e7d73;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.month {
+  display: flex;
+  height: 15rem;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.blockExcursion {
+  height: auto;
+  align-items: center;
+  margin: 0rem 0.5rem;
+  /* fotos de proximas excursiones*/
+}
+.blockExcursion__excImg {
+  height: 9rem;
+  width: 12rem;
+  display: inline-block;
+  align-items: center;
+  background-size: cover;
+}
+.blockExcursion__excTitle {
+  color: #016236;
+  width: 12rem;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0.4rem 0rem;
+}
+.blockExcursion__excBody {
+  color: #7e7d73;
+  font-size: 1.2rem;
+  height: 2rem;
+  letter-spacing: 0.06rem;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.nosotrosTop {
+  background-color: whitesmoke;
+  width: 80%;
+  margin: 6rem auto 0rem auto;
+  max-width: 1320px;
+  align-items: center;
+  display: block;
+}
+.nosotrosTop__intro {
+  font-size: 1.2rem;
+  color: #7e7d73;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  line-height: 1.6rem;
+}
+
+/* grid sobre nosotros*/
+.nosotrosGallery {
+  background-color: #016236;
+  height: 21rem;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  box-shadow: 0rem 0rem 0.5rem #7e7d73;
+  border-radius: 0.2rem;
+  z-index: 3;
+  display: grid;
+  grid-template-areas: "foto1 foto2 foto3 foto3" "foto4 foto2 foto5 foto6";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1.2%;
+  grid-row-gap: 1%;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+/* imagenes del grid nosotros */
+.imgGeneral, .foto6, .foto5, .foto4, .foto3, .foto2, .foto1 {
+  background-size: cover;
+  border-radius: 0.2rem;
+  height: 9rem;
+}
+
+.foto1 {
+  grid-area: "foto1";
+  background-image: url(../Img/mapa.jpg);
+}
+
+.foto2 {
+  grid-area: "foto2";
+  grid-row: span 2;
+  height: 18.5rem;
+  background-image: url(../Img/usuario-perro.jpg);
+}
+
+.foto3 {
+  grid-area: "foto3";
+  grid-column: span 2;
+  background-image: url(../Img/selfie.jpg);
+}
+
+.foto4 {
+  grid-area: "foto4";
+  background-image: url(../Img/team-photo.jpg);
+}
+
+.foto5 {
+  grid-area: "foto5";
+  background-image: url(../Img/hombre-mirando-paisaje.jpg);
+}
+
+.foto6 {
+  grid-area: "foto6";
+  background-image: url(../Img/team-cima.jpg);
+}
+
+.gridNosotros:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0rem 0rem 0.3rem #016236;
+}
+
+/* bloque testimonios */
+.nosotrosReview {
+  background-color: whitesmoke;
+  margin: 2rem 1rem;
+  display: flex;
+}
+
+.review1__Img {
+  height: 15rem;
+  width: auto;
+  float: right;
+  border-radius: 1rem;
+  margin: 2.2rem 0rem 0rem 1rem;
+}
+.review1__title {
+  color: #7e7d73;
+  height: 3rem;
+  font-size: 1.7rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+.review1__body {
+  color: #7e7d73;
+  height: 18rem;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 1rem 10rem 1rem 1rem;
+  overflow-wrap: break-word;
+}
+
+.review2__Img {
+  height: 15rem;
+  width: auto;
+  float: left;
+  border-radius: 1rem;
+  margin: 2.2rem 1rem 0rem 0rem;
+}
+.review2__title {
+  color: #7e7d73;
+  height: 3rem;
+  font-size: 1.7rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+.review2__body {
+  color: #7e7d73;
+  height: 18rem;
+  font-size: 1.2rem;
+  text-align: right;
+  margin: 1rem 1rem 2rem 10rem;
+  overflow-wrap: break-word;
+}
+
+/* frase testimonios */
+.higlight {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.22rem;
+  padding: 0rem 0.5rem 0rem 3rem;
+}
+
+.shopH1 {
+  margin-top: 5rem;
+}
+
+.shopTop {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0.5rem 2rem 2rem 3rem;
+  /* bloque superior shop */
+}
+.shopTop__title {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #016236;
+  letter-spacing: 0.2rem;
+  margin: 0rem 2rem;
+  height: 4.5rem;
+}
+.shopTop__promo {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 30rem;
+}
+.shopTop__Img {
+  width: 20rem;
+  height: auto;
+  margin: 0.7rem;
+  background-size: center;
+}
+.shopTop__body {
+  font-size: 1.2rem;
+  color: #7e7d73;
+  width: 26rem;
+  text-align: center;
+  margin: 0.5rem 0rem 1rem 2rem;
+  line-height: 1.5rem;
+}
+
+.shopBottom {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.shopBottom__title {
+  font-size: 1.7rem;
+  height: 2.5rem;
+  color: #7e7d73;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 3.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */

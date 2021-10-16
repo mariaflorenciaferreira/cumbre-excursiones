@@ -1,0 +1,613 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
+
+}
+  
+.main {
+  padding-top: 1rem;
+  align-items: center;
+}
+
+
+  // PALETA DE COLORES
+
+$color-primary: #016236;
+$color-secondary: #7e7d73;
+$color-ternary: whitesmoke;
+
+// TAMAÑOS DE FUENTE
+
+$font-size-big:2rem;
+$font-size-medium:1.7rem;
+$font-size-small:1.2rem;
+
+body {
+  background-color: $color-ternary;
+  cursor: default;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  &__logo {
+    width: 6vw;
+    margin: 0rem;
+    background-image: url(../Img/mountain.png);
+    background-size: cover;
+  }
+  
+  &__brand {
+    font-size: $font-size-medium;
+    height: 2.5rem;
+    color: $color-primary;
+  }
+  
+  &__link {
+    font-size: $font-size-medium;
+    font-weight: bold;
+    color: $color-secondary;
+    margin: 0.7rem;
+    padding: 0rem;
+
+    &:hover{
+      color: $color-ternary;
+      background-color: $color-secondary;
+      text-decoration: none;
+      border-radius: 0.15rem;
+      padding: 0.25rem;
+      margin: 0rem;
+ 
+    }
+  }
+
+  
+  &__button {
+    margin: 1rem;
+    font-size: $font-size-medium;
+    display: inline-block;
+  
+    &:hover {
+      color: $color-ternary;
+      background-color: $color-primary;
+      border: 0rem;
+    }
+  }
+
+}
+  
+
+/* carousel index */
+
+.indexHero {
+  display: flex;
+  flex-direction: column;
+  
+  &__carouselIndex {
+    margin: 8rem 1rem 1rem 1rem;
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+ &__imgCarousel {
+    width: 30rem;
+  }
+ 
+}
+  
+/* buscador de salidas */
+  
+.card__group {
+  margin: 1.5rem 0rem 0rem 0rem;
+  background: $color-ternary;
+}
+  
+.card {
+  margin: 0.5rem 0rem 0rem 0rem;
+  display: inline-block;
+  background-color: $color-ternary;
+  
+  /* tarjeta titulo */
+  
+  &__firstCard {
+    border: none;
+    
+ }
+  
+ &__indexH1 {
+    color: $color-primary;
+    font-size: $font-size-medium;
+    text-align: center;
+    line-height: 3rem;
+    letter-spacing: 0.5rem;
+    justify-items: center;
+    margin: 1rem 2rem 1rem 3rem;
+ }
+  
+  /* imagen buscador de salidas */
+  &__imgBuscador {
+    width: 25rem;
+    height: auto;
+    background-size: cover;
+    margin: 0.5rem 1rem 0.5rem 5rem;
+ }
+  
+  &__title {
+    font-size: $font-size-medium;
+    height: 3rem;
+    color:$color-primary;
+    letter-spacing: 0.5rem;
+    margin-left: 5rem;
+
+
+    &:hover{
+      font-size: 2.4rem;
+      transition: all 200ms ease;
+      letter-spacing: 0.7rem;
+    }
+  }
+  
+  &__body {
+    font-size: $font-size-small;
+    color: $color-secondary;
+    letter-spacing: 0.3rem;
+    margin: 1rem 0rem 1rem 5rem;
+    line-height: 1.5rem;
+    width: 25rem;
+
+ }
+
+}
+
+  
+/* blog shop index */
+
+.indexBlog {
+  display: grid;
+  justify-items: center;
+  margin-left: 0.5rem;
+
+  &__img {
+    width: 25rem;
+    height: auto;
+    background-size: cover;
+  }
+
+  &__title {
+    font-size: ($font-size-medium*0.8);
+    height: 3rem;
+    color: $color-primary;
+    margin: 0.5rem 0rem 0rem 1.3rem;
+  }
+
+  &__body {
+    width: 24rem;
+    height: 10rem;
+    font-size:$font-size-small;
+    line-height: 1.3rem;
+    color:$color-secondary;
+    padding-left: 1rem;
+  }
+
+  &__button {
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: $font-size-small;
+    padding: 0.2rem;
+    margin: 0rem 0rem 5rem 1rem;
+    background-color: $color-ternary;
+    color:$color-primary;
+    text-align: center;
+
+    &:hover{
+      background-color: $color-primary;
+      color: $color-ternary;
+
+    }
+  }
+}
+
+
+
+/* footer */
+.footer {
+  background-color: $color-secondary;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+
+  &__logo {
+    height: 5vh;
+  }
+
+  &__shortcuts {
+    width: 10rem;
+    margin: 0.5rem 0rem 0rem 13rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: $font-size-small;
+    color: $color-ternary;
+    margin: 0rem 0.8rem 0rem 0rem;
+
+    
+    &:hover{
+      text-decoration: none;
+      margin: 0rem;
+      padding: 0rem;
+      color:$color-primary;
+    }
+  }
+    
+}
+
+
+.h1{
+  font-size:$font-size-big;
+  height: 2.8rem;
+  letter-spacing: 0.5rem;
+  color:$color-primary;
+  background-color:$color-ternary;
+  text-align: center;
+  align-items: center;
+  margin: 1rem 0rem 1.8rem 0rem;
+
+}
+
+
+// PROXIMAS EXCURSIONES
+
+
+.excursionesH1 {
+  @extend .h1;
+  margin-top: 6rem;
+  letter-spacing: 0.2rem;
+}
+
+
+.month__title {
+  font-size: ($font-size-medium);
+  font-weight: bold;
+ height: 3rem;
+  color: $color-secondary;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin:1rem 0rem 2rem 0rem;
+  
+}
+
+.month {
+  display: flex;
+  height: 15rem;
+  width: auto;
+  margin-bottom: 1rem;
+  
+}
+
+.blockExcursion {
+  height: auto;
+  align-items: center;
+  margin: 0rem 0.5rem;
+ 
+
+  /* fotos de proximas excursiones*/
+  &__excImg {
+    height: 9rem;
+    width: 12rem;
+    display: inline-block;
+    align-items: center;
+    background-size: cover;
+  }
+
+  &__excTitle {
+    color: $color-primary;
+    width: 12rem;
+    text-align: center;
+    font-size: ($font-size-small)+0.2;
+    margin: 0.4rem 0rem ;
+  }
+
+  &__excBody {
+    color: $color-secondary;
+    font-size: $font-size-small;
+    height: 2rem;
+    letter-spacing: 0.06rem;
+    text-align: center;
+    line-height: 1rem;
+  }
+
+}
+
+// SOBRE NOSOTROS
+
+#nosotrosH1 {
+  @extend .h1;
+}
+
+.nosotrosTop {
+  background-color: $color-ternary;
+  width: 80%;
+  margin: 6rem auto 0rem auto;
+  max-width: 1320px;
+  align-items: center;
+  display: block;
+
+  &__intro {
+    font-size: $font-size-small;
+    color: $color-secondary;
+    text-align: center;
+    letter-spacing: 0.03rem;
+    line-height: 1.6rem;
+  }
+}
+
+/* grid sobre nosotros*/
+
+.nosotrosGallery {
+  background-color: $color-primary;
+  height: 21rem;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  box-shadow: 0rem 0rem 0.5rem $color-secondary;
+  border-radius: 0.2rem;
+  z-index: 3;
+  display: grid;
+
+  grid-template-areas:
+    "foto1 foto2 foto3 foto3"
+    "foto4 foto2 foto5 foto6";
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1.2%;
+  grid-row-gap: 1%;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+/* imagenes del grid nosotros */
+
+.imgGeneral{
+  background-size: cover;
+  border-radius: 0.2rem;
+  height: 9rem;
+}
+
+
+.foto1 {
+  @extend .imgGeneral;
+  grid-area: "foto1";
+  background-image: url(../Img/mapa.jpg);
+  
+}
+
+.foto2 {
+  @extend .imgGeneral;
+  grid-area: "foto2";
+  grid-row: span 2;
+  height: 18.5rem;
+  background-image: url(../Img/usuario-perro.jpg);
+  
+}
+
+.foto3 {
+  @extend .imgGeneral;
+  grid-area: "foto3";
+  grid-column: span 2;
+  background-image: url(../Img/selfie.jpg);
+  
+}
+
+.foto4 {
+  @extend .imgGeneral;
+  grid-area: "foto4";
+  background-image: url(../Img/team-photo.jpg);
+  
+}
+
+.foto5 {
+  @extend .imgGeneral;
+  grid-area: "foto5";
+  background-image: url(../Img/hombre-mirando-paisaje.jpg);
+  
+}
+
+.foto6 {
+  @extend .imgGeneral;
+  grid-area: "foto6";
+  background-image: url(../Img/team-cima.jpg);
+ 
+ 
+}
+
+.gridNosotros:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0rem 0rem 0.3rem $color-primary;
+}
+
+/* bloque testimonios */
+
+.nosotrosReview {
+  background-color: $color-ternary;
+  margin: 2rem 1rem;
+  display: flex;
+  
+}
+
+@mixin reviewsStyle ($color,$height,$font-size,$text-align){
+  color:$color;
+  height: $height;
+  font-size: $font-size;
+  text-align: $text-align;
+}
+
+.review1{
+
+  &__Img {
+    height: 15rem;
+    width: auto;
+    float: right;
+    border-radius: 1rem;
+    margin: 2.2rem 0rem 0rem 1rem;
+  }
+
+  &__title {
+    @include reviewsStyle($color-secondary,3rem , $font-size-medium, left);
+    margin-left: 2rem;
+  }
+
+  &__body{
+    @include reviewsStyle($color-secondary,18rem ,$font-size-small, left);
+    margin: 1rem 10rem 1rem 1rem;
+    overflow-wrap: break-word;  
+  }
+}
+
+
+.review2{
+
+  &__Img {
+    height: 15rem;
+    width: auto;
+    float: left;
+    border-radius: 1rem;
+    margin: 2.2rem 1rem  0rem 0rem;
+    
+  }
+  
+  &__title{
+    @include reviewsStyle($color-secondary,3rem ,$font-size-medium, right);
+    margin-right: 2rem;
+  }
+
+  &__body{
+
+    @include reviewsStyle($color-secondary,18rem ,$font-size-small, right);
+    margin: 1rem 1rem 2rem 10rem;
+    overflow-wrap: break-word
+
+  }
+}
+
+/* frase testimonios */
+.higlight {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: $font-size-small+0.02;
+  padding: 0rem 0.5rem 0rem 3rem;
+
+}
+
+
+// SHOP ONLINE
+
+.shopH1{
+  @extend .h1;
+  margin-top: 5rem;
+  
+}
+
+.shopTop{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0.5rem 2rem 2rem 3rem;
+
+  &__title{
+    font-size: $font-size-medium;
+    text-align: center;
+    color: $color-primary;
+    letter-spacing: 0.2rem;
+    margin: 0rem 2rem;
+    height: 4.5rem;
+
+  }
+
+  /* bloque superior shop */
+
+  &__promo{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 30rem;
+  }
+
+  &__Img{
+    width: 20rem;
+    height: auto;
+    margin: 0.7rem;
+    background-size: center;
+
+  }
+
+  &__body{
+    font-size: $font-size-small;
+    color: $color-secondary;
+    width: 26rem;
+    text-align: center;
+    margin: 0.5rem 0rem 1rem 2rem;
+    line-height: 1.5rem;
+
+  }
+
+}
+
+.shopBottom{
+  display: inline-block;
+  margin: 0.5rem;
+
+  &__title{
+    font-size: $font-size-medium;
+    height: 2.5rem;
+    color: $color-secondary;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 3.8rem;
+   
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
