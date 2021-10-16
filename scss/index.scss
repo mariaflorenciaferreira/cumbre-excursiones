@@ -590,7 +590,7 @@ body {
   
 }
 
-
+// categorias shop online
 .shopCategory {
   display: inline-block;
   border-radius: 2rem;
@@ -798,6 +798,39 @@ textarea {
   }
 
 }
+
+// PAGINA ERROR 404
+
+.pagina404{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  
+  
+
+  &__imgContainer{
+    width: 80vw;
+  }
+
+  &__img{
+    width: 100%;
+  }
+
+  &__title{
+    color: $color-primary;
+    font-size: $font-size-big;
+    margin-top: 2rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    height: 6rem;
+  }
+
+
+}
+
 
 
 

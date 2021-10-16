@@ -624,4 +624,27 @@ textarea {
   color: #016236;
 }
 
+.pagina404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.pagina404__imgContainer {
+  width: 80vw;
+}
+.pagina404__img {
+  width: 100%;
+}
+.pagina404__title {
+  color: #016236;
+  font-size: 2rem;
+  margin-top: 2rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  height: 6rem;
+}
+
 /*# sourceMappingURL=style.css.map */
