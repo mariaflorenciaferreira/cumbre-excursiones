@@ -200,7 +200,7 @@ body {
   color: #016236;
 }
 
-.h1, .shopH1, #nosotrosH1, .excursionesH1 {
+.h1, .contactoH1, .shopH1, #nosotrosH1, .excursionesH1 {
   font-size: 2rem;
   height: 2.8rem;
   letter-spacing: 0.5rem;
@@ -208,11 +208,10 @@ body {
   background-color: whitesmoke;
   text-align: center;
   align-items: center;
-  margin: 1rem 0rem 1.8rem 0rem;
+  margin: 5rem 0rem 1.8rem 0rem;
 }
 
 .excursionesH1 {
-  margin-top: 6rem;
   letter-spacing: 0.2rem;
 }
 
@@ -404,10 +403,6 @@ body {
   padding: 0rem 0.5rem 0rem 3rem;
 }
 
-.shopH1 {
-  margin-top: 5rem;
-}
-
 .shopTop {
   display: flex;
   flex-direction: column;
@@ -482,7 +477,7 @@ body {
 .shopCategory__title {
   color: #016236;
   font-size: 1.4rem;
-  height: 3.5rem;
+  height: 4rem;
   font-weight: bold;
   text-align: center;
   margin-top: 1rem;
@@ -506,6 +501,126 @@ body {
   margin: 0.5rem 0.5rem 0.5rem 1.3rem;
   line-height: 1.5rem;
   overflow-wrap: break-word;
+}
+
+.formContacto {
+  background-image: url("../Img/a-n-v-e-s-h-4W4EiTKqDcs-unsplash-min-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.fieldsetContacto {
+  display: flex;
+  padding: 1rem;
+  margin: 0rem;
+}
+
+.bloqueFieldsetLeft {
+  display: block;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #016236;
+}
+
+.bloqueFieldsetRight {
+  display: block;
+  float: right;
+  width: 20rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: #016236;
+  font-size: 1.2rem;
+}
+
+.bloqueBotones {
+  margin: 0.5rem 1rem 1rem 1.5rem;
+  display: flex;
+}
+
+input[type=submit],
+input[type=reset] {
+  width: 6rem;
+  margin-right: 0.6rem;
+  font-size: 1.2rem;
+  padding: 0.05rem;
+  color: #7e7d73;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+}
+
+input[type=submit]:hover {
+  background-color: #016236;
+  color: whitesmoke;
+}
+
+input[type=reset]:hover {
+  background-color: #016236;
+  color: whitesmoke;
+}
+
+textarea {
+  width: 90%;
+  height: 9rem;
+  margin: 1rem 0rem 1rem 0rem;
+  box-sizing: border-box;
+  border: 0.2rem solid whitesmoke;
+  border-radius: 0.2rem;
+  background-color: inherit;
+  resize: none;
+  outline: none;
+}
+
+#location {
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.location__logo {
+  font-size: 1.7rem;
+  color: #7e7d73;
+  float: left;
+  margin: 1rem 1.5rem 0rem 2rem;
+}
+.location__title {
+  color: #7e7d73;
+  height: 2.5rem;
+  font-size: 1.7rem;
+  margin: 1rem 0rem 2rem 2rem;
+  letter-spacing: 0.2rem;
+  cursor: default;
+}
+
+.mapa {
+  margin: 1rem 0.2rem 2rem 1rem;
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  float: left;
+  border: 0.01rem solid #7e7d73;
+}
+
+.contacto__datos {
+  display: block;
+  width: 15rem;
+  flex-direction: column;
+  float: right;
+  justify-items: left;
+  font-size: 1.2rem;
+  color: #7e7d73;
+  margin: 1rem 1.5rem 0rem 0rem;
+  cursor: default;
+}
+.contacto__logo {
+  float: left;
+  font-size: 1.2rem;
+  color: #7e7d73;
+  margin: 0.25rem 0.3rem 0rem 0rem;
+}
+.contacto__logo:hover {
+  color: #016236;
 }
 
 /*# sourceMappingURL=style.css.map */

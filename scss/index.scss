@@ -267,7 +267,7 @@ body {
   background-color:$color-ternary;
   text-align: center;
   align-items: center;
-  margin: 1rem 0rem 1.8rem 0rem;
+  margin: 5rem 0rem 1.8rem 0rem;
 
 }
 
@@ -277,7 +277,6 @@ body {
 
 .excursionesH1 {
   @extend .h1;
-  margin-top: 6rem;
   letter-spacing: 0.2rem;
 }
 
@@ -521,7 +520,7 @@ body {
 
 .shopH1{
   @extend .h1;
-  margin-top: 5rem;
+  
   
 }
 
@@ -615,7 +614,7 @@ body {
   &__title{
     color: $color-primary;
     font-size: ($font-size-small)+0.2;
-    height: 3.5rem;
+    height: 4rem;
     font-weight: bold;
     text-align: center;
     margin-top: 1rem;
@@ -630,6 +629,8 @@ body {
     margin: 0.5rem 0rem 0rem 1rem;
     
   }
+
+  // imagenes shop online
 
   &__Img{
     width: 100%;
@@ -649,6 +650,157 @@ body {
 
   }
 }
+
+// CONTACTO CUMBRE
+
+.contactoH1{
+  @extend .h1;
+  
+}
+
+// formulario contacto
+
+.formContacto {
+  background-image: url("../Img/a-n-v-e-s-h-4W4EiTKqDcs-unsplash-min-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.fieldsetContacto {
+  display: flex;
+  padding: 1rem;
+  margin: 0rem;
+}
+
+.bloqueFieldsetLeft {
+  display: block;
+  float: left;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  font-size: $font-size-small;
+  color: $color-primary;
+}
+
+.bloqueFieldsetRight {
+  display: block;
+  float: right;
+  width: 20rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: $color-primary;
+  font-size: $font-size-small;
+}
+
+.bloqueBotones {
+  margin: 0.5rem 1rem 1rem 1.5rem;
+  display: flex;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+  width: 6rem;
+  margin-right: 0.6rem;
+  font-size: $font-size-small;
+  padding: 0.05rem;
+  color: $color-secondary;
+  background-color: $color-ternary;
+  border-radius: 0.5rem;
+}
+
+input[type="submit"]:hover {
+  background-color: $color-primary;
+  color: $color-ternary;
+}
+
+input[type="reset"]:hover {
+  background-color: $color-primary;
+  color: $color-ternary;
+}
+
+textarea {
+  width: 90%;
+  height: 9rem;
+  margin: 1rem 0rem 1rem 0rem;
+  box-sizing: border-box;
+  border: 0.2rem solid $color-ternary;
+  border-radius: 0.2rem;
+  background-color: inherit;
+  resize: none;
+  outline: none;
+}
+
+// ubicacion 
+
+#location {
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.location{
+
+  &__logo{
+    font-size: $font-size-medium;
+   color: $color-secondary;
+    float: left;
+    margin: 1rem 1.5rem 0rem 2rem;
+
+  }
+
+  &__title {
+    color: $color-secondary;
+    height: 2.5rem;
+    font-size: $font-size-medium;
+    margin: 1rem 0rem 2rem 2rem;
+    letter-spacing: 0.2rem;
+    cursor: default;
+  }
+
+}
+
+
+.mapa {
+  margin: 1rem 0.2rem 2rem 1rem;
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  float: left;
+  border: 0.01rem solid $color-secondary;
+}
+
+//  datos contacto 
+
+.contacto{
+
+  &__datos{
+    display: block;
+    width: 15rem;
+    flex-direction: column;
+    float: right;
+    justify-items: left;
+    font-size: $font-size-small;
+    color: $color-secondary;
+    margin: 1rem 1.5rem 0rem 0rem;
+    cursor: default;
+  }
+
+  &__logo{
+    float: left;
+    font-size: $font-size-small;
+     color: $color-secondary;
+    margin: 0.25rem 0.3rem 0rem 0rem;
+    
+    &:hover{
+      color: $color-primary;
+    }
+
+  }
+
+}
+
+
+
 
 
 
