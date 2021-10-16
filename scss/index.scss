@@ -502,7 +502,7 @@ body {
 
     @include reviewsStyle($color-secondary,18rem ,$font-size-small, right);
     margin: 1rem 1rem 2rem 10rem;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
 
   }
 }
@@ -575,21 +575,81 @@ body {
 
 .shopBottom{
   display: inline-block;
-  margin: 0.5rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 
   &__title{
     font-size: $font-size-medium;
-    height: 2.5rem;
     color: $color-secondary;
     letter-spacing: 0.2rem;
     text-align: center;
     align-items: center;
     align-content: center;
-    margin-left: 3.8rem;
+    
    
   }
-
+  
 }
+
+
+.shopCategory {
+  display: inline-block;
+  border-radius: 2rem;
+  border: 0.14rem solid $color-secondary;
+  background: $color-ternary;
+  width: 9rem;
+  text-align: center;
+  margin: 1rem 0.5rem;
+  justify-items: center;
+  align-items: center;
+  cursor: default;
+  transition: all 400ms ease;
+
+  &:hover{
+    box-shadow: 0.25rem 0.25rem 1rem $color-secondary;
+    transform: translateY(-3%);
+    z-index: 1;
+
+  }
+
+  &__title{
+    color: $color-primary;
+    font-size: ($font-size-small)+0.2;
+    height: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    
+
+  }
+
+  &__imgContainer{
+    width: 7rem;
+    height: 6rem;
+    overflow: hidden;
+    margin: 0.5rem 0rem 0rem 1rem;
+    
+  }
+
+  &__Img{
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  &__body{
+    color: $color-secondary;
+    font-size: $font-size-small;
+    width: 6rem;
+    text-align: center;
+    margin: 0.5rem 0.5rem 0.5rem 1.3rem;
+    line-height: 1.5rem;
+    overflow-wrap: break-word;
+
+
+  }
+}
+
 
 
 
