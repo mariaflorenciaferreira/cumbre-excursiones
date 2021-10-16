@@ -647,4 +647,171 @@ textarea {
   height: 6rem;
 }
 
+@media screen and (min-width: 768px) {
+  .h1, .excursionesH1, #nosotrosH1, .shopH1, .contactoH1 {
+    font-size: 1.7rem;
+  }
+
+  .navBar__logo {
+    width: 8vw;
+  }
+  .navBar__brand {
+    font-size: 1.9rem;
+  }
+
+  .indexHero__imgCarousel {
+    width: 50rem;
+  }
+
+  .card__group {
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .card {
+    margin: 1rem 0.5rem;
+  }
+  .card__indexH1 {
+    margin: 1rem;
+    letter-spacing: 0.5rem;
+  }
+  .card__imgBuscador {
+    width: 40rem;
+    margin: 1rem 2rem;
+  }
+  .card__title {
+    width: 15rem;
+    margin: 0rem 0.5rem;
+  }
+  .card__title:hover {
+    letter-spacing: 0.05rem;
+  }
+  .card__body {
+    margin: 0.5rem 0rem 0rem 2rem;
+    overflow-wrap: break-word;
+    width: 12rem;
+  }
+
+  .indexBlog {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem 0rem 1rem 9rem;
+  }
+  .indexBlog__img {
+    width: 30rem;
+  }
+  .indexBlog__title {
+    font-size: 1.7rem;
+  }
+  .indexBlog__body {
+    width: 28rem;
+  }
+
+  .footer__logo {
+    height: 8vh;
+  }
+  .footer__shortcuts {
+    margin-left: 28rem;
+  }
+  .footer__link {
+    font-size: 1.7rem;
+    margin-right: 2rem;
+  }
+
+  .excursionesH1 {
+    margin-top: 8rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .month__title {
+    font-size: 2rem;
+  }
+
+  .month {
+    width: 100%;
+    margin: 0rem 0rem 3.5rem 10rem;
+    height: 22rem;
+  }
+
+  .blockExcursion {
+    margin: 1rem 1.5rem;
+  }
+  .blockExcursion__excImg {
+    height: 13rem;
+    width: 16rem;
+  }
+  .blockExcursion__excTitle {
+    font-size: 1.7rem;
+    margin: 1rem 0rem 2rem 1rem;
+  }
+  .blockExcursion__excBody {
+    margin: 1rem 0rem 0rem 1.7rem;
+    text-align: left;
+  }
+
+  .nosotrosTop__intro {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.06rem;
+  }
+
+  .nosotrosGallery {
+    height: 29rem;
+  }
+
+  .imgGeneral, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+    height: 13rem;
+  }
+
+  .foto2 {
+    height: 26rem;
+  }
+
+  .nosotrosReview {
+    margin: 2rem 2.5rem;
+  }
+
+  .review1__Img {
+    height: 18rem;
+    margin: 2.2rem 0rem 0rem 1rem;
+  }
+  .review1__title {
+    color: #7e7d73;
+    height: 3rem;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+  .review1__body {
+    color: #7e7d73;
+    height: 18rem;
+    font-size: 1.3rem;
+    text-align: left;
+    margin: 2.3rem 15rem 1rem 1rem;
+  }
+
+  .review2__Img {
+    height: 18rem;
+    margin: 2.2rem 1rem 0rem 0rem;
+  }
+  .review2__title {
+    color: #7e7d73;
+    height: 3rem;
+    font-size: 1.8rem;
+    text-align: right;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .review2__body {
+    color: #7e7d73;
+    height: 18rem;
+    font-size: 1.3rem;
+    text-align: right;
+    margin: 2.3rem 1rem 1rem 15rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -282,7 +282,7 @@ body {
 
 
 .month__title {
-  font-size: ($font-size-medium);
+  font-size: $font-size-medium;
   font-weight: bold;
  height: 3rem;
   color: $color-secondary;
@@ -830,6 +830,255 @@ textarea {
 
 
 }
+
+// MEDIA QUERIES
+
+// tablet +768px
+
+@media screen and (min-width: 768px){
+
+  // PCPAL +768
+
+  .h1{
+    font-size: $font-size-medium;
+  }
+
+ .navBar{
+
+    &__logo{
+      width: 8vw;
+
+    }
+
+    &__brand{
+      font-size: ($font-size-medium)+0.2rem;
+    }
+
+  }
+
+  // carousel index +768
+
+    .indexHero{
+
+      &__imgCarousel{
+        width:50rem;
+      }
+    }
+
+  // buscador de salidas +768
+
+  .card__group{
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .card{
+   
+   margin: 1rem 0.5rem;
+
+    &__indexH1{
+      margin: 1rem;
+      letter-spacing: 0.5rem;
+    }
+
+    // imagen buscador de salidaas
+
+    &__imgBuscador{
+      
+      width:40rem;
+      margin:1rem 2rem;
+      
+
+    }
+
+    &__title{
+      
+      width: 15rem;
+      margin: 0rem 0.5rem;
+      
+
+      &:hover{
+        
+        letter-spacing: 0.05rem;
+      }
+
+    }
+
+    &__body{
+      margin: 0.5rem 0rem 0rem 2rem;
+      overflow-wrap: break-word;
+      width: 12rem;
+    }
+
+
+  }
+
+  // index blog shop +768
+
+  .indexBlog {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem 0rem 1rem 9rem;
+
+    &__img{
+      width: 30rem;
+    }
+
+    &__title{
+      font-size: ($font-size-medium);
+    }
+
+    &__body{
+      width: 28rem;
+      
+    }
+  }
+
+  // footer +768
+
+  .footer{
+
+    &__logo{
+      height: 8vh;
+    }
+
+    &__shortcuts{
+      margin-left: 28rem;
+    }
+
+    &__link{
+      font-size: $font-size-medium;
+      margin-right: 2rem;
+    }
+
+  }
+
+  // PROXIMAS EXCURSIONES +768
+
+  .excursionesH1{
+    margin-top: 8rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .month__title{
+    font-size: ($font-size-medium)+0.3rem;
+  }
+
+  .month{
+    width: 100%;
+    margin: 0rem 0rem 3.5rem 10rem;
+    height: 22rem;
+  }
+
+  // fotos excursiones +768
+
+  .blockExcursion{
+
+    margin: 1rem 1.5rem;
+    
+
+    &__excImg{
+      height: 13rem;
+      width: 16rem;
+    }
+
+    &__excTitle{
+      font-size: ($font-size-small)+0.5;
+      margin:1rem 0rem 2rem 1rem;
+    }
+
+    &__excBody{
+      margin:1rem 0rem 0rem 1.7rem;
+      text-align: left;
+    }
+  }
+
+
+  // SOBRE NOSOTROS +768
+
+  .nosotrosTop{
+
+    &__intro{
+      font-size: $font-size-small;
+      line-height: 2rem;
+      letter-spacing: 0.06rem;
+
+    }
+  }
+
+  // GRID NOSOTROS +768
+
+  .nosotrosGallery{
+    height: 29rem;
+  }
+
+  .imgGeneral{
+    height: 13rem;
+  }
+
+  .foto2{
+    height: 26rem;
+  }
+
+  // testimonios +768
+
+  .nosotrosReview{
+    margin:2rem 2.5rem;
+  }
+
+  .review1{
+
+    &__Img {
+      height: 18rem;
+      margin: 2.2rem 0rem 0rem 1rem;
+    }
+  
+    &__title {
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.1rem, left);
+      margin-left: 2rem;
+      margin-top:3rem;
+    }
+  
+    &__body{
+      @include reviewsStyle($color-secondary,18rem ,($font-size-small)+0.1rem, left);
+      margin: 2.3rem 15rem 1rem 1rem;
+       
+    }
+  }
+  
+  .review2{
+
+    &__Img {
+      height: 18rem;
+      margin: 2.2rem 1rem 0rem 0rem;
+    }
+
+    &__title {
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.1rem, right);
+      margin-left: 2rem;
+      margin-top:2rem;
+    }
+
+    &__body{
+      @include reviewsStyle($color-secondary,18rem ,($font-size-small)+0.1rem, right);
+      margin: 2.3rem 1rem 1rem 15rem;
+       
+    }
+
+
+
+  }
+
+ 
+  
+
+
+
+}
+
+
 
 
 
