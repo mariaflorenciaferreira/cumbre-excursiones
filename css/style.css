@@ -45,8 +45,8 @@ body {
   padding: 0rem;
 }
 .navBar__link:hover {
-  color: whitesmoke;
   background-color: #7e7d73;
+  color: whitesmoke;
   text-decoration: none;
   border-radius: 0.15rem;
   padding: 0.25rem;
@@ -443,8 +443,7 @@ body {
 
 .shopBottom {
   display: inline-block;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  margin: 0rem 1rem 2rem 3rem;
 }
 .shopBottom__title {
   font-size: 1.7rem;
@@ -536,14 +535,22 @@ body {
   font-size: 1.2rem;
 }
 
+.placeholderForm {
+  width: 20rem;
+}
+
 .bloqueBotones {
   margin: 0.5rem 1rem 1rem 1.5rem;
   display: flex;
 }
 
+.labelContacto {
+  width: 20rem;
+}
+
 input[type=submit],
 input[type=reset] {
-  width: 6rem;
+  width: 5rem;
   margin-right: 0.6rem;
   font-size: 1.2rem;
   padding: 0.05rem;
@@ -682,7 +689,7 @@ textarea {
   }
   .card__title {
     width: 15rem;
-    margin: 0rem 0.5rem;
+    margin: 0rem 0rem;
   }
   .card__title:hover {
     letter-spacing: 0.05rem;
@@ -826,6 +833,10 @@ textarea {
     font-size: 1.7rem;
   }
 
+  .placeholderForm {
+    width: 45rem;
+  }
+
   .bloqueBotones {
     margin-left: 8rem;
     font-size: 1.7rem;
@@ -881,7 +892,7 @@ input[type=reset] {
   }
 
   .shopBottom {
-    margin-left: 6rem;
+    margin-left: 8rem;
     margin-bottom: 6rem;
   }
   .shopBottom__title {
@@ -907,6 +918,292 @@ input[type=reset] {
     width: 13rem;
     height: 5rem;
     margin: 0rem 0.5rem 0.5rem 1.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h1, .excursionesH1, #nosotrosH1, .shopH1, .contactoH1 {
+    font-size: 2.4rem;
+    margin-top: 8rem;
+    height: 6rem;
+  }
+
+  .navBar__logo {
+    width: 9vw;
+  }
+  .navBar__brand {
+    font-size: 2rem;
+  }
+
+  .indexHero__imgCarousel {
+    width: 70rem;
+  }
+
+  .card__group {
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .card {
+    margin: 1rem 0.5rem;
+  }
+  .card__indexH1 {
+    margin: 1.5rem 1rem 0rem 1rem;
+    height: 15rem;
+    letter-spacing: 0.8rem;
+    font-size: 2.6rem;
+  }
+  .card__imgBuscador {
+    width: 60rem;
+    margin: 1rem 2rem;
+  }
+  .card__title {
+    font-size: 1.9rem;
+    width: 25rem;
+    margin-left: 1rem;
+  }
+  .card__title:hover {
+    letter-spacing: 0.8rem;
+  }
+  .card__body {
+    margin: 0.5rem 0rem 0rem 4rem;
+    width: 19rem;
+  }
+
+  .indexBlog {
+    margin-left: 20rem;
+  }
+  .indexBlog__img {
+    width: 40rem;
+  }
+  .indexBlog__title {
+    font-size: 2rem;
+  }
+  .indexBlog__body {
+    font-size: 1.7rem;
+    width: 37rem;
+    height: 15rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+  }
+  .indexBlog__button {
+    font-size: 1.4rem;
+  }
+
+  .footer__logo {
+    height: 9vh;
+  }
+  .footer__shortcuts {
+    margin-left: 48rem;
+    margin-top: 1.5rem;
+  }
+  .footer__link {
+    font-size: 1.7rem;
+    margin-right: 3rem;
+  }
+
+  .excursionesH1 {
+    margin-top: 14rem;
+  }
+
+  .month__title {
+    font-size: 2.3rem;
+  }
+
+  .month {
+    margin: 0rem 0rem 3.5rem 22rem;
+    height: 30rem;
+  }
+
+  .blockExcursion {
+    margin: 0.5rem 2rem;
+  }
+  .blockExcursion__excImg {
+    height: 18rem;
+    width: 21rem;
+  }
+  .blockExcursion__excTitle {
+    font-size: 1.7rem;
+    margin: 1rem 0rem 2rem 3.5rem;
+  }
+  .blockExcursion__excBody {
+    font-size: 1.4rem;
+    margin: 1rem 0rem 0rem 3.5rem;
+  }
+
+  .nosotrosTop__intro {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: 0.06rem;
+    height: 12rem;
+  }
+
+  .nosotrosGallery {
+    height: 32rem;
+  }
+
+  .imgGeneral, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+    height: 14rem;
+  }
+
+  .foto2 {
+    height: 28rem;
+  }
+
+  .nosotrosReview {
+    margin: 2rem 2.5rem 8rem 2.5rem;
+  }
+
+  .review1__Img {
+    height: 28rem;
+    margin: 2.2rem 0rem 0rem 1rem;
+  }
+  .review1__title {
+    color: #7e7d73;
+    height: 3rem;
+    font-size: 2.3rem;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+  .review1__body {
+    color: #7e7d73;
+    height: 18rem;
+    font-size: 1.7rem;
+    text-align: left;
+    margin: 2.3rem 18rem 1rem 1rem;
+  }
+  .review1__higlight {
+    font-size: 1.7rem;
+    margin-left: 3.5rem;
+    font-style: italic;
+  }
+
+  .review2__Img {
+    height: 28rem;
+    margin: 2.2rem 1rem 0rem 0rem;
+  }
+  .review2__title {
+    color: #7e7d73;
+    height: 3rem;
+    font-size: 2.3rem;
+    text-align: right;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .review2__body {
+    color: #7e7d73;
+    height: 18rem;
+    font-size: 1.7rem;
+    text-align: right;
+    margin: 2.3rem 1rem 1rem 18rem;
+  }
+  .review2__higlight {
+    font-size: 1.7rem;
+    margin-left: 3.5rem;
+    font-style: italic;
+  }
+
+  .contactoH1 {
+    margin-top: 15rem;
+  }
+
+  .bloqueFieldsetLeft {
+    width: 60rem;
+  }
+
+  .bloqueFieldsetRight {
+    width: 70rem;
+  }
+
+  .placeholderForm {
+    width: 55rem;
+  }
+
+  .bloqueBotones {
+    margin-left: 15rem;
+  }
+
+  input[type=submit],
+input[type=reset] {
+    margin-right: 5rem;
+    font-size: 1.7rem;
+    width: 8rem;
+  }
+
+  textarea {
+    height: 15rem;
+    width: 60rem;
+  }
+
+  .location__logo {
+    font-size: 2rem;
+    height: 10rem;
+    margin-left: 5rem;
+  }
+  .location__title {
+    font-size: 2.2rem;
+  }
+
+  .contacto__datos {
+    width: 45rem;
+    font-size: 1.7rem;
+  }
+  .contacto__logo {
+    font-size: 1.7rem;
+    margin-right: 1rem;
+  }
+
+  .shopH1 {
+    margin-top: 15rem;
+  }
+
+  .shopTop__promo {
+    margin: 0.5rem;
+    width: 85rem;
+    height: 40rem;
+    margin-left: 12rem;
+  }
+  .shopTop__Img {
+    width: 50rem;
+    height: auto;
+    margin: 0.5rem 1.3rem;
+  }
+  .shopTop__body {
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.8rem;
+    width: 70rem;
+    margin: 0.5rem 0rem 1rem 23rem;
+  }
+
+  .shopBottom {
+    margin-left: 8rem;
+    margin-bottom: 6rem;
+  }
+  .shopBottom__title {
+    font-size: 2rem;
+  }
+
+  .shopCategory {
+    width: 28rem;
+    margin: 1.5rem 1rem 0rem 6rem;
+  }
+  .shopCategory__title {
+    color: #016236;
+    font-size: 2rem;
+    height: 4rem;
+  }
+  .shopCategory__imgContainer {
+    width: 18rem;
+    height: 15rem;
+    margin: 0rem 0rem 0rem 5rem;
+  }
+  .shopCategory__body {
+    font-size: 1.7rem;
+    width: 15rem;
+    height: 8rem;
+    margin: 0rem 0.5rem 0.5rem 7rem;
   }
 }
 
