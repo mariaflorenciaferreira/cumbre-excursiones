@@ -45,7 +45,6 @@ body {
   &__logo {
     width: 6vw;
     margin: 0rem;
-    background-image: url(../Img/mountain.png);
     background-size: cover;
   }
   
@@ -284,7 +283,7 @@ body {
 .month__title {
   font-size: $font-size-medium;
   font-weight: bold;
- height: 3rem;
+  height: 3rem;
   color: $color-secondary;
   text-align: center;
   letter-spacing: 0.4rem;
@@ -775,7 +774,7 @@ textarea {
 
   &__datos{
     display: block;
-    width: 15rem;
+    width: 13.5rem;
     flex-direction: column;
     float: right;
     justify-items: left;
@@ -783,6 +782,7 @@ textarea {
     color: $color-secondary;
     margin: 1rem 1.5rem 0rem 0rem;
     cursor: default;
+    overflow-wrap:break-word;
   }
 
   &__logo{
@@ -882,7 +882,7 @@ textarea {
       letter-spacing: 0.5rem;
     }
 
-    // imagen buscador de salidaas
+    // imagen buscador de salidas
 
     &__imgBuscador{
       
@@ -946,11 +946,13 @@ textarea {
 
     &__shortcuts{
       margin-left: 28rem;
+      margin-top: 1.5rem;
     }
 
     &__link{
       font-size: $font-size-medium;
       margin-right: 2rem;
+     
     }
 
   }
@@ -969,7 +971,7 @@ textarea {
   .month{
     width: 100%;
     margin: 0rem 0rem 3.5rem 10rem;
-    height: 22rem;
+    height: 25rem;
   }
 
   // fotos excursiones +768
@@ -987,6 +989,7 @@ textarea {
     &__excTitle{
       font-size: ($font-size-small)+0.5;
       margin:1rem 0rem 2rem 1rem;
+      height: 2.1rem;
     }
 
     &__excBody{
@@ -1031,7 +1034,7 @@ textarea {
   .review1{
 
     &__Img {
-      height: 18rem;
+      height: 20rem;
       margin: 2.2rem 0rem 0rem 1rem;
     }
   
@@ -1051,7 +1054,7 @@ textarea {
   .review2{
 
     &__Img {
-      height: 18rem;
+      height: 20rem;
       margin: 2.2rem 1rem 0rem 0rem;
     }
 
@@ -1067,9 +1070,148 @@ textarea {
        
     }
 
+  }
+
+  // contacto +768
+
+  .bloqueFieldsetLeft {
+    width: 40rem;
+    font-size: $font-size-medium;
+  }
+
+  .bloqueFieldsetRight{
+    width: 40rem;
+    margin-left: 3rem;
+    font-size: $font-size-medium;
+  }
+
+  .bloqueBotones {
+    margin-left: 8rem;
+    font-size: $font-size-medium;
+        
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    margin-right: 2rem;
+  
+  }
+
+  textarea {
+    height: 11rem;
+  }
+
+  .location{
+
+    &__logo{
+      font-size: ($font-size-medium)+0.2rem;
+     
+    }
+
+    &__title{
+      font-size: ($font-size-medium)+0.2rem;
+    }
+  }
+
+  .mapa{
+    height: 30rem;
+    margin-bottom: 4rem;
+  }
+
+  .contacto{
+    &__datos{
+      width:32rem;
+      font-size: ($font-size-small)+0.2rem;
+    }
+
+    &__logo{
+      font-size: ($font-size-small)+0.2rem;
+      margin-right: 1rem;
+
+    }
+  }
+
+  // SHOP ONLINE +768
+
+  .shopTop{
+    &__promo{
+      margin: 0.5rem;
+      width: 60rem;
+      height: 25rem;
+      margin-left: 8rem;
+    }
+
+    &__Img{
+      width: 30rem;
+      height: auto;
+      margin: 0.5rem 1rem;
+       
+    }
+
+    &__body{
+      font-size: ($font-size-small)+0.2rem;
+      color: $color-secondary;
+      width: 55rem;
+      height: 10rem;
+      margin: 0.5rem 0rem 1rem 10rem;
+        
+    }
+   
+
+  }
+
+  .shopBottom{
+      
+    margin-left: 6rem;
+    margin-bottom: 6rem;
+  
+    &__title{
+      font-size: ($font-size-medium)+0.5rem;
+    
+     
+    }     
+  }
+
+  // categorias shop online +768
+  
+  .shopCategory{
+    width: 18rem;
+    margin: 1.5rem 1rem 0rem 2.5rem;
+    
+    &__title{
+      color: $color-primary;
+      font-size: $font-size-medium;
+      height: 4rem;
+      
+ 
+    }
+
+    &__imgContainer{
+      width: 13rem;
+      height: 10rem;
+      margin: 0rem 0rem 0rem 2rem;
+      
+    }
+
+    &__body{
+      
+      font-size: ($font-size-small)+0.2rem;
+      width: 13rem;
+      height: 5rem;
+      margin: 0rem 0.5rem 0.5rem 1.8rem;
+         
+  
+  
+    }
+
+
+
+
 
 
   }
+
+ 
 
  
   
