@@ -62,15 +62,19 @@ body {
     padding: 0rem;
 
     &:hover{
+      
+      background-color:$color-secondary;
       color: $color-ternary;
-      background-color: $color-secondary;
       text-decoration: none;
       border-radius: 0.15rem;
       padding: 0.25rem;
       margin: 0rem;
- 
+  
     }
+
+    
   }
+ 
 
   
   &__button {
@@ -572,8 +576,8 @@ body {
 
 .shopBottom{
   display: inline-block;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  margin: 0rem 1rem 2rem 3rem;
+  
 
   &__title{
     font-size: $font-size-medium;
@@ -667,6 +671,7 @@ body {
   display: flex;
 }
 
+
 .fieldsetContacto {
   display: flex;
   padding: 1rem;
@@ -692,15 +697,22 @@ body {
   font-size: $font-size-small;
 }
 
+.placeholderForm{
+  width: 20rem;
+}
+
 .bloqueBotones {
   margin: 0.5rem 1rem 1rem 1.5rem;
   display: flex;
 }
 
+.labelContacto{
+  width: 20rem;
+}
 
 input[type="submit"],
 input[type="reset"] {
-  width: 6rem;
+  width: 5rem;
   margin-right: 0.6rem;
   font-size: $font-size-small;
   padding: 0.05rem;
@@ -882,10 +894,9 @@ textarea {
       letter-spacing: 0.5rem;
     }
 
-    // imagen buscador de salidas
+    // imagen buscador de salidas +768
 
     &__imgBuscador{
-      
       width:40rem;
       margin:1rem 2rem;
       
@@ -893,9 +904,8 @@ textarea {
     }
 
     &__title{
-      
       width: 15rem;
-      margin: 0rem 0.5rem;
+      margin: 0rem 0rem;
       
 
       &:hover{
@@ -1085,6 +1095,12 @@ textarea {
     font-size: $font-size-medium;
   }
 
+  .placeholderForm{
+    width: 45rem;
+    
+    
+  }
+
   .bloqueBotones {
     margin-left: 8rem;
     font-size: $font-size-medium;
@@ -1162,7 +1178,7 @@ textarea {
 
   .shopBottom{
       
-    margin-left: 6rem;
+    margin-left: 8rem;
     margin-bottom: 6rem;
   
     &__title{
@@ -1199,22 +1215,421 @@ textarea {
       width: 13rem;
       height: 5rem;
       margin: 0rem 0.5rem 0.5rem 1.8rem;
-         
-  
+      
   
     }
 
+  }
+
+  
 
 
+}
 
 
+// desktop +1200
+
+@media screen and (min-width: 1200px) {
+
+  // PCPAL +1200
+
+  .h1{
+  font-size: ($font-size-big)+0.4rem;
+  margin-top: 8rem;
+  height: 6rem;
+  }
+
+  .navBar{
+
+    &__logo{
+      width: 9vw;
+
+    }
+
+    &__brand{
+      font-size: $font-size-big;
+    }
 
   }
 
- 
+  // carousel index +1200
 
- 
+  .indexHero{
+
+    &__imgCarousel{
+      width:70rem;
+    }
+  }
+
+  // buscador de salidas +1200
+
+  .card__group{
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .card{
+   margin: 1rem 0.5rem;
+
+    &__indexH1{
+      margin: 1.5rem 1rem 0rem 1rem;
+      height: 15rem;
+      letter-spacing: 0.8rem;
+      font-size: ($font-size-big)+0.6rem;
+    }
+
+    // imagen buscador de salidas +1200
+
+    &__imgBuscador{
+      width:60rem;
+      margin:1rem 2rem;
+      
+
+    }
+
+    &__title{
+      font-size: ($font-size-medium)+0.2rem;
+      width: 25rem;
+     margin-left: 1rem;
+     
+    
+      &:hover{
+       letter-spacing: 0.8rem;
+       
+      }
+
+    }
+
+    &__body{
+      margin: 0.5rem 0rem 0rem 4rem;
+      width: 19rem;
+    }
+
+  }
+
+  // index blog shop +1200
+
+  .indexBlog {
+   
+    margin-left: 20rem;
+
+    &__img{
+      width: 40rem;
+    }
+
+    &__title{
+      font-size: $font-size-big;
+    }
+
+    &__body{
+      font-size: $font-size-medium;
+      width: 37rem;
+      height: 15rem;
+      letter-spacing: 0.3rem;
+      line-height: 1.5rem;
+      
+    }
+
+    &__button{
+      font-size: ($font-size-small)+0.2rem;
+    }
+    
+  }
+
+  // footer +1200
+
+  .footer{
+
+    &__logo{
+      height: 9vh;
+    }
+
+    &__shortcuts{
+      margin-left: 48rem;
+      margin-top: 1.5rem;
+    }
+
+    &__link{
+      font-size: $font-size-medium;
+      margin-right: 3rem;
+     
+    }
+
+  }
+
+  // PROXIMAS EXCURSIONES +1200
+
+  .excursionesH1{
+    margin-top: 14rem;
+    
+  }
+
+  .month__title{
+    font-size: ($font-size-big)+0.3rem;
+  }
+
+  .month{
+    margin: 0rem 0rem 3.5rem 22rem;
+    height: 30rem;
+  }
+
+   // fotos excursiones +1200
+
+   .blockExcursion{
+
+    margin: 0.5rem 2rem;
+    
+
+    &__excImg{
+      height: 18rem;
+      width: 21rem;
+    }
+
+    &__excTitle{
+      font-size: 
+      $font-size-medium;
+      margin:1rem 0rem 2rem 3.5rem;
+      
+    }
+
+    &__excBody{
+      font-size: ($font-size-small)+0.2rem;
+      margin:1rem 0rem 0rem 3.5rem;
+     
+    }
+  }
+
+  // SOBRE NOSOTROS +1200
+
+  .nosotrosTop{
+
+    &__intro{
+      font-size: $font-size-medium;
+      line-height: 2rem;
+      letter-spacing: 0.06rem;
+      height: 12rem;
+
+    }
+  }
+
+  // GRID NOSOTROS +1200
+
+  .nosotrosGallery{
+    height: 32rem;
+  }
+
+  .imgGeneral{
+    height: 14rem;
+  }
+
+  .foto2{
+    height: 28rem;
+  }
+
+  // testimonios +1200
+
+  .nosotrosReview{
+    margin:2rem 2.5rem 8rem 2.5rem;
+  }
+
+  .review1{
+
+    &__Img {
+      height: 28rem;
+      margin: 2.2rem 0rem 0rem 1rem;
+    }
   
+    &__title {
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.6rem, left);
+      margin-left: 2rem;
+      margin-top:3rem;
+    }
+  
+    &__body{
+      @include reviewsStyle($color-secondary,18rem ,($font-size-medium), left);
+      margin: 2.3rem 18rem 1rem 1rem;
+       
+    }
+
+    &__higlight{
+      font-size: $font-size-medium;
+      margin-left: 3.5rem;
+      font-style: italic;
+    }
+  }
+  
+  .review2{
+
+    &__Img {
+      height: 28rem;
+      margin: 2.2rem 1rem 0rem 0rem;
+    }
+
+    &__title {
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.6rem, right);
+      margin-left: 2rem;
+      margin-top:2rem;
+    }
+
+    &__body{
+      @include reviewsStyle($color-secondary,18rem ,$font-size-medium, right);
+      margin: 2.3rem 1rem 1rem 18rem;
+       
+    }
+
+    &__higlight{
+      font-size: $font-size-medium;
+      margin-left: 3.5rem;
+      font-style: italic;
+    }
+
+  }
+
+  // contacto +1200
+
+  .contactoH1{
+    margin-top: 15rem;
+  }
+
+  .bloqueFieldsetLeft {
+    width: 60rem;
+    
+  }
+
+  .bloqueFieldsetRight{
+    width: 70rem;
+  }
+
+  .placeholderForm{
+    width: 55rem;
+       
+  }
+
+  .bloqueBotones {
+    margin-left: 15rem;
+            
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    margin-right: 5rem;
+    font-size: $font-size-medium;
+    width: 8rem;
+  
+  }
+
+  textarea {
+    height: 15rem;
+    width: 60rem;
+  }
+
+  .location{
+
+    &__logo{
+      font-size: $font-size-big;
+      height: 10rem;
+      margin-left: 5rem;
+     
+    }
+
+    &__title{
+      font-size: ($font-size-medium)+0.5rem;
+      
+    }
+  }
+
+  .contacto{
+    &__datos{
+      width:45rem;
+      font-size: $font-size-medium;
+    }
+
+    &__logo{
+      font-size: $font-size-medium;
+      margin-right: 1rem;
+
+    }
+  }
+
+  // SHOP ONLINE +1200
+
+  .shopH1{
+    margin-top: 15rem;
+  }
+
+  .shopTop{
+    &__promo{
+      margin: 0.5rem;
+      width: 85rem;
+      height: 40rem;
+      margin-left: 12rem;
+    }
+
+    &__Img{
+      width: 50rem;
+      height: auto;
+      margin: 0.5rem 1.3rem;
+            
+    }
+
+    &__body{
+      font-size: $font-size-medium;
+      letter-spacing: 0.3rem;
+      line-height: 1.8rem;
+      width: 70rem;
+      
+      margin: 0.5rem 0rem 1rem 23rem;
+        
+    }
+   
+
+  }
+
+  .shopBottom{
+      
+    margin-left: 8rem;
+    margin-bottom: 6rem;
+  
+    &__title{
+      font-size: $font-size-big;
+    
+     
+    }     
+  }
+
+  // categorias shop online +1200
+  
+  .shopCategory{
+    width: 28rem;
+    margin: 1.5rem 1rem 0rem 6rem;
+    
+    &__title{
+      color: $color-primary;
+      font-size: ($font-size-medium)+0.3rem;
+      height: 4rem;
+      
+ 
+    }
+
+    &__imgContainer{
+      width: 18rem;
+      height: 15rem;
+      margin: 0rem 0rem 0rem 5rem;
+      
+    }
+
+    &__body{
+      
+      font-size: $font-size-medium;
+      width: 15rem;
+      height: 8rem;
+      margin: 0rem 0.5rem 0.5rem 7rem;
+      
+  
+    }
+
+  }
 
 
 
