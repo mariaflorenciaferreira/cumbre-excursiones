@@ -927,7 +927,7 @@ input[type=reset] {
   }
 
   .navBar__logo {
-    width: 4vw;
+    width: 8vw;
   }
   .navBar__brand {
     font-size: 2rem;
@@ -983,15 +983,14 @@ input[type=reset] {
     width: 37rem;
     height: 15rem;
     letter-spacing: 0.3rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .indexBlog__button {
     font-size: 1.4rem;
   }
 
   .footer__logo {
-    height: 6vh;
-    overflow-y: hidden;
+    height: 8vh;
   }
   .footer__shortcuts {
     margin-left: 54rem;
@@ -1117,7 +1116,7 @@ input[type=reset] {
   }
 
   .placeholderForm {
-    width: 55rem;
+    width: 60rem;
   }
 
   .bloqueBotones {
@@ -1143,6 +1142,10 @@ input[type=reset] {
   }
   .location__title {
     font-size: 2.2rem;
+  }
+
+  .mapa {
+    margin-bottom: 4rem;
   }
 
   .contacto__datos {
