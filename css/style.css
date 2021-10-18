@@ -652,6 +652,15 @@ textarea {
   text-align: center;
   height: 6rem;
 }
+.pagina404__link {
+  text-decoration: none;
+  color: #7e7d73;
+  font-size: medium;
+  overflow: hidden;
+}
+.pagina404__link:hover {
+  color: #016236;
+}
 
 @media screen and (min-width: 768px) {
   .h1, .excursionesH1, #nosotrosH1, .shopH1, .contactoH1 {
@@ -917,6 +926,13 @@ input[type=reset] {
     width: 13rem;
     height: 5rem;
     margin: 0rem 0.5rem 0.5rem 1.8rem;
+  }
+
+  .pagina404__imgContainer {
+    width: 60vw;
+  }
+  .pagina404__link {
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1207,6 +1223,13 @@ input[type=reset] {
     width: 15rem;
     height: 8rem;
     margin: 0rem 0.5rem 0.5rem 7rem;
+  }
+
+  .pagina404__imgContainer {
+    width: 40vw;
+  }
+  .pagina404__link {
+    font-size: 2rem;
   }
 }
 

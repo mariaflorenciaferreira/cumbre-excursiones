@@ -840,6 +840,17 @@ textarea {
     height: 6rem;
   }
 
+  &__link{
+    text-decoration: none;
+    color: $color-secondary;
+    font-size: medium;
+    overflow: hidden;
+
+    &:hover{
+      color:$color-primary
+    }
+  }
+
 
 }
 
@@ -1221,6 +1232,23 @@ textarea {
     }
 
   }
+
+  // PAGINA ERROR 404
+
+  .pagina404{
+
+    &__imgContainer{
+      width: 60vw;
+    }
+
+    &__link{
+      font-size: ($font-size-medium)+0.3rem;
+      
+    }
+
+  }
+
+
 
   
 
@@ -1634,6 +1662,22 @@ textarea {
       margin: 0rem 0.5rem 0.5rem 7rem;
       
   
+    }
+
+  }
+
+  // PAGINA ERROR 404
+
+  .pagina404{
+
+    &__imgContainer{
+      width: 40vw;
+    }
+
+    &__link{
+      font-size: ($font-size-medium)+0.3rem;
+      
+      
     }
 
   }
