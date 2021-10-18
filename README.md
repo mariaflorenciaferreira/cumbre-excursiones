@@ -2,6 +2,11 @@
 
 ## Sitio de cumbre excursiones. Organización dedicada a la venta de excursiones, productos afines y foro de experiencias de usuario.
 
+Autor: María Florencia Ferreira
+
+Sitio creado con bootstrap v.5 y sass
+
+
 ### Contenido del sitio
 - Homepage: página inicial con principales secciones del sitio.
 - Sobre nosotros: página con información de la organización y foro de usuarios.
