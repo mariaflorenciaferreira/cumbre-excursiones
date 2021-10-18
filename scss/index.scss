@@ -234,7 +234,9 @@ body {
 
 
   &__logo {
-    height: 6vh;
+    height: 4vh;
+    margin-top: 0.1rem;
+    overflow: hidden;
   }
 
   &__shortcuts {
@@ -950,8 +952,7 @@ textarea {
 
     &__logo{
       height: 6vh;
-      margin-top: 0.2rem;
-      overflow-y:hidden;
+      
     }
 
     &__shortcuts{
@@ -1242,7 +1243,7 @@ textarea {
   .navBar{
 
     &__logo{
-      width: 8vw;
+      width: 6vw;
 
     }
 
@@ -1342,7 +1343,7 @@ textarea {
   .footer{
 
     &__logo{
-      height: 8vh;
+      height: 5vh;
     }
 
     &__shortcuts{

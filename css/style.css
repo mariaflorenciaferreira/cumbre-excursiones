@@ -177,7 +177,9 @@ body {
   width: 100%;
 }
 .footer__logo {
-  height: 6vh;
+  height: 4vh;
+  margin-top: 0.1rem;
+  overflow: hidden;
 }
 .footer__shortcuts {
   width: 10rem;
@@ -715,8 +717,6 @@ textarea {
 
   .footer__logo {
     height: 6vh;
-    margin-top: 0.2rem;
-    overflow-y: hidden;
   }
   .footer__shortcuts {
     margin-left: 28rem;
@@ -927,7 +927,7 @@ input[type=reset] {
   }
 
   .navBar__logo {
-    width: 8vw;
+    width: 6vw;
   }
   .navBar__brand {
     font-size: 2rem;
@@ -990,7 +990,7 @@ input[type=reset] {
   }
 
   .footer__logo {
-    height: 8vh;
+    height: 5vh;
   }
   .footer__shortcuts {
     margin-left: 54rem;
