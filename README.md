@@ -2,7 +2,7 @@
 
 ## Sitio de cumbre excursiones. Organización dedicada a la venta de excursiones, productos afines y foro de experiencias de usuario.
 
-###Contenido del sitio
+### Contenido del sitio
 -Homepage: página inicial con principales secciones del sitio.
 -Sobre nosotros: página con información de la organización y foro de usuarios.
 -Próximas salidas: calendario de próximas excursiones.
