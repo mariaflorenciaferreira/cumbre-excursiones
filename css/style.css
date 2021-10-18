@@ -175,16 +175,13 @@ body {
   background-color: #7e7d73;
   display: flex;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 .footer__logo {
-  height: 5vh;
+  height: 6vh;
 }
 .footer__shortcuts {
   width: 10rem;
-  margin: 0.5rem 0rem 0rem 13rem;
+  margin: 0.5rem 0rem 0rem 11rem;
 }
 .footer__link {
   text-decoration: none;
@@ -660,7 +657,7 @@ textarea {
   }
 
   .navBar__logo {
-    width: 8vw;
+    width: 5.5vw;
   }
   .navBar__brand {
     font-size: 1.9rem;
@@ -717,11 +714,13 @@ textarea {
   }
 
   .footer__logo {
-    height: 8vh;
+    height: 6vh;
+    margin-top: 0.2rem;
+    overflow-y: hidden;
   }
   .footer__shortcuts {
     margin-left: 28rem;
-    margin-top: 1.5rem;
+    margin-top: 0.2rem;
   }
   .footer__link {
     font-size: 1.7rem;
@@ -928,7 +927,7 @@ input[type=reset] {
   }
 
   .navBar__logo {
-    width: 9vw;
+    width: 4vw;
   }
   .navBar__brand {
     font-size: 2rem;
@@ -991,11 +990,12 @@ input[type=reset] {
   }
 
   .footer__logo {
-    height: 9vh;
+    height: 6vh;
+    overflow-y: hidden;
   }
   .footer__shortcuts {
-    margin-left: 48rem;
-    margin-top: 1.5rem;
+    margin-left: 54rem;
+    margin-top: 1rem;
   }
   .footer__link {
     font-size: 1.7rem;

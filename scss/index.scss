@@ -230,18 +230,16 @@ body {
   background-color: $color-secondary;
   display: flex;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+ 
 
 
   &__logo {
-    height: 5vh;
+    height: 6vh;
   }
 
   &__shortcuts {
     width: 10rem;
-    margin: 0.5rem 0rem 0rem 13rem;
+    margin: 0.5rem 0rem 0rem 11rem;
   }
 
   &__link {
@@ -858,7 +856,7 @@ textarea {
  .navBar{
 
     &__logo{
-      width: 8vw;
+      width: 5.5vw;
 
     }
 
@@ -951,12 +949,14 @@ textarea {
   .footer{
 
     &__logo{
-      height: 8vh;
+      height: 6vh;
+      margin-top: 0.2rem;
+      overflow-y:hidden;
     }
 
     &__shortcuts{
       margin-left: 28rem;
-      margin-top: 1.5rem;
+      margin-top: 0.2rem;
     }
 
     &__link{
@@ -1242,7 +1242,7 @@ textarea {
   .navBar{
 
     &__logo{
-      width: 9vw;
+      width: 4vw;
 
     }
 
@@ -1342,12 +1342,15 @@ textarea {
   .footer{
 
     &__logo{
-      height: 9vh;
+      height: 6vh;
+      overflow-y:hidden;
     }
 
     &__shortcuts{
-      margin-left: 48rem;
-      margin-top: 1.5rem;
+      margin-left: 54rem;
+      margin-top: 1rem;
+
+      
     }
 
     &__link{
