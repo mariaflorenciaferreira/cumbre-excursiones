@@ -1242,7 +1242,7 @@ textarea {
   .navBar{
 
     &__logo{
-      width: 9vw;
+      width: 8vw;
 
     }
 
@@ -1327,7 +1327,7 @@ textarea {
       width: 37rem;
       height: 15rem;
       letter-spacing: 0.3rem;
-      line-height: 1.5rem;
+      line-height: 1.8rem;
       
     }
 
@@ -1342,7 +1342,7 @@ textarea {
   .footer{
 
     &__logo{
-      height: 9vh;
+      height: 8vh;
     }
 
     &__shortcuts{
@@ -1502,7 +1502,7 @@ textarea {
   }
 
   .placeholderForm{
-    width: 55rem;
+    width: 60rem;
        
   }
 
@@ -1537,6 +1537,10 @@ textarea {
       font-size: ($font-size-medium)+0.5rem;
       
     }
+  }
+  
+  .mapa{
+    margin-bottom:4rem;
   }
 
   .contacto{
