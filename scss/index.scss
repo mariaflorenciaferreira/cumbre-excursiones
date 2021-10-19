@@ -170,6 +170,7 @@ body {
     margin: 1rem 0rem 1rem 5rem;
     line-height: 1.5rem;
     width: 25rem;
+    
 
  }
 
@@ -203,6 +204,7 @@ body {
     line-height: 1.3rem;
     color:$color-secondary;
     padding-left: 1rem;
+    
   }
 
   &__button {
@@ -241,7 +243,7 @@ body {
 
   &__shortcuts {
     width: 10rem;
-    margin: 0.5rem 0rem 0rem 11rem;
+    margin: 0.5rem 0rem 0rem 12rem;
   }
 
   &__link {
@@ -297,8 +299,8 @@ body {
 
 .month {
   display: flex;
-  height: 15rem;
-  width: auto;
+  height: 17rem;
+  width: 96%;
   margin-bottom: 1rem;
   
 }
@@ -310,12 +312,20 @@ body {
  
 
   /* fotos de proximas excursiones*/
-  &__excImg {
+
+  &__imgContainer{
     height: 9rem;
     width: 12rem;
     display: inline-block;
     align-items: center;
     background-size: cover;
+
+  }
+
+  &__excImg {
+    height: 100%;
+    width: 100%;
+    
   }
 
   &__excTitle {
@@ -329,7 +339,7 @@ body {
   &__excBody {
     color: $color-secondary;
     font-size: $font-size-small;
-    height: 2rem;
+    height: 3rem;
     letter-spacing: 0.06rem;
     text-align: center;
     line-height: 1rem;
@@ -699,6 +709,7 @@ body {
 
 .placeholderForm{
   width: 20rem;
+  overflow: hidden;
 }
 
 .bloqueBotones {
@@ -1003,7 +1014,7 @@ textarea {
     margin: 1rem 1.5rem;
     
 
-    &__excImg{
+    &__imgContainer{
       height: 13rem;
       width: 16rem;
     }
@@ -1393,7 +1404,8 @@ textarea {
 
   .excursionesH1{
     margin-top: 14rem;
-    
+    margin-left: 3rem;
+    font-size: ($font-size-big)+2rem;
   }
 
   .month__title{
@@ -1401,7 +1413,7 @@ textarea {
   }
 
   .month{
-    margin: 0rem 0rem 3.5rem 22rem;
+    margin: 0rem 0rem 3.5rem 24rem;
     height: 30rem;
   }
 
@@ -1412,29 +1424,39 @@ textarea {
     margin: 0.5rem 2rem;
     
 
-    &__excImg{
+    &__imgContainer{
       height: 18rem;
-      width: 21rem;
+      width: 25rem;
     }
+
+    
 
     &__excTitle{
       font-size: 
       $font-size-medium;
-      margin:1rem 0rem 2rem 3.5rem;
+      letter-spacing: 0.3rem;
+      margin:1rem 0rem 2rem 6rem;
       
     }
 
     &__excBody{
       font-size: ($font-size-small)+0.2rem;
-      margin:1rem 0rem 0rem 3.5rem;
+      margin:1rem 0rem 0rem 6rem;
+      text-align: left;
      
     }
   }
 
   // SOBRE NOSOTROS +1200
 
+  #nosotrosH1{
+    font-size: ($font-size-big)+2rem;
+
+  }
+
   .nosotrosTop{
 
+    
     &__intro{
       font-size: $font-size-medium;
       line-height: 2rem;
@@ -1521,6 +1543,7 @@ textarea {
 
   .contactoH1{
     margin-top: 15rem;
+    font-size: ($font-size-big)+2rem;
   }
 
   .bloqueFieldsetLeft {
@@ -1534,7 +1557,7 @@ textarea {
 
   .placeholderForm{
     width: 80rem;
-    overflow: hidden;
+    
        
   }
 
@@ -1591,15 +1614,24 @@ textarea {
   // SHOP ONLINE +1200
 
   .shopH1{
+    font-size: ($font-size-big)+2rem;
     margin-top: 15rem;
+    margin-left: 6rem;
   }
 
   .shopTop{
+    margin-left: 25rem;
+
+    &__title{
+      text-align: left;margin-left: 28rem;
+    
+    }
+
     &__promo{
       margin: 0.5rem;
       width: 85rem;
       height: 40rem;
-      margin-left: 12rem;
+   
     }
 
     &__Img{
@@ -1614,8 +1646,7 @@ textarea {
       letter-spacing: 0.3rem;
       line-height: 1.8rem;
       width: 70rem;
-      
-      margin: 0.5rem 0rem 1rem 23rem;
+      margin: 0.5rem 0rem 1rem 11rem;
         
     }
    
@@ -1629,7 +1660,7 @@ textarea {
   
     &__title{
       font-size: $font-size-big;
-    
+      margin-bottom: 1rem;    
      
     }     
   }
@@ -1638,7 +1669,7 @@ textarea {
   
   .shopCategory{
     width: 28rem;
-    margin: 1.5rem 1rem 0rem 6rem;
+    margin: 1.5rem 1rem 0rem 9rem;
     
     &__title{
       color: $color-primary;
@@ -1661,6 +1692,7 @@ textarea {
       width: 15rem;
       height: 8rem;
       margin: 0rem 0.5rem 0.5rem 7rem;
+      line-height: 1.9rem;
       
   
     }

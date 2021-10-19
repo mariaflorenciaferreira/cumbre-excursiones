@@ -183,7 +183,7 @@ body {
 }
 .footer__shortcuts {
   width: 10rem;
-  margin: 0.5rem 0rem 0rem 11rem;
+  margin: 0.5rem 0rem 0rem 12rem;
 }
 .footer__link {
   text-decoration: none;
@@ -225,8 +225,8 @@ body {
 
 .month {
   display: flex;
-  height: 15rem;
-  width: auto;
+  height: 17rem;
+  width: 96%;
   margin-bottom: 1rem;
 }
 
@@ -236,12 +236,16 @@ body {
   margin: 0rem 0.5rem;
   /* fotos de proximas excursiones*/
 }
-.blockExcursion__excImg {
+.blockExcursion__imgContainer {
   height: 9rem;
   width: 12rem;
   display: inline-block;
   align-items: center;
   background-size: cover;
+}
+.blockExcursion__excImg {
+  height: 100%;
+  width: 100%;
 }
 .blockExcursion__excTitle {
   color: #016236;
@@ -253,7 +257,7 @@ body {
 .blockExcursion__excBody {
   color: #7e7d73;
   font-size: 1.2rem;
-  height: 2rem;
+  height: 3rem;
   letter-spacing: 0.06rem;
   text-align: center;
   line-height: 1rem;
@@ -536,6 +540,7 @@ body {
 
 .placeholderForm {
   width: 20rem;
+  overflow: hidden;
 }
 
 .bloqueBotones {
@@ -754,7 +759,7 @@ textarea {
   .blockExcursion {
     margin: 1rem 1.5rem;
   }
-  .blockExcursion__excImg {
+  .blockExcursion__imgContainer {
     height: 13rem;
     width: 16rem;
   }
@@ -1019,6 +1024,8 @@ input[type=reset] {
 
   .excursionesH1 {
     margin-top: 14rem;
+    margin-left: 3rem;
+    font-size: 4rem;
   }
 
   .month__title {
@@ -1026,24 +1033,30 @@ input[type=reset] {
   }
 
   .month {
-    margin: 0rem 0rem 3.5rem 22rem;
+    margin: 0rem 0rem 3.5rem 24rem;
     height: 30rem;
   }
 
   .blockExcursion {
     margin: 0.5rem 2rem;
   }
-  .blockExcursion__excImg {
+  .blockExcursion__imgContainer {
     height: 18rem;
-    width: 21rem;
+    width: 25rem;
   }
   .blockExcursion__excTitle {
     font-size: 1.7rem;
-    margin: 1rem 0rem 2rem 3.5rem;
+    letter-spacing: 0.3rem;
+    margin: 1rem 0rem 2rem 6rem;
   }
   .blockExcursion__excBody {
     font-size: 1.4rem;
-    margin: 1rem 0rem 0rem 3.5rem;
+    margin: 1rem 0rem 0rem 6rem;
+    text-align: left;
+  }
+
+  #nosotrosH1 {
+    font-size: 4rem;
   }
 
   .nosotrosTop__intro {
@@ -1121,6 +1134,7 @@ input[type=reset] {
 
   .contactoH1 {
     margin-top: 15rem;
+    font-size: 4rem;
   }
 
   .bloqueFieldsetLeft {
@@ -1133,7 +1147,6 @@ input[type=reset] {
 
   .placeholderForm {
     width: 80rem;
-    overflow: hidden;
   }
 
   .bloqueBotones {
@@ -1175,14 +1188,22 @@ input[type=reset] {
   }
 
   .shopH1 {
+    font-size: 4rem;
     margin-top: 15rem;
+    margin-left: 6rem;
   }
 
+  .shopTop {
+    margin-left: 25rem;
+  }
+  .shopTop__title {
+    text-align: left;
+    margin-left: 28rem;
+  }
   .shopTop__promo {
     margin: 0.5rem;
     width: 85rem;
     height: 40rem;
-    margin-left: 12rem;
   }
   .shopTop__Img {
     width: 50rem;
@@ -1194,7 +1215,7 @@ input[type=reset] {
     letter-spacing: 0.3rem;
     line-height: 1.8rem;
     width: 70rem;
-    margin: 0.5rem 0rem 1rem 23rem;
+    margin: 0.5rem 0rem 1rem 11rem;
   }
 
   .shopBottom {
@@ -1203,11 +1224,12 @@ input[type=reset] {
   }
   .shopBottom__title {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .shopCategory {
     width: 28rem;
-    margin: 1.5rem 1rem 0rem 6rem;
+    margin: 1.5rem 1rem 0rem 9rem;
   }
   .shopCategory__title {
     color: #016236;
@@ -1224,6 +1246,7 @@ input[type=reset] {
     width: 15rem;
     height: 8rem;
     margin: 0rem 0.5rem 0.5rem 7rem;
+    line-height: 1.9rem;
   }
 
   .pagina404__imgContainer {
