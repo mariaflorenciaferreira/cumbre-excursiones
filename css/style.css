@@ -1133,6 +1133,7 @@ input[type=reset] {
 
   .placeholderForm {
     width: 80rem;
+    overflow: hidden;
   }
 
   .bloqueBotones {
