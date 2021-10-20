@@ -21,6 +21,9 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
+     <!-- animaciones -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- iconos fontawesome -->
     <script
       src="https://kit.fontawesome.com/572f2def0c.js"
@@ -107,8 +110,8 @@
 
     <main>
       <!-- carousel/slider pagina principal -->
-      <section class="indexHero">
-        <div class="indexHero__carouselIndex">
+      <section class="indexHero" >
+        <div class="indexHero__carouselIndex" >
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -190,7 +193,7 @@
       </section>
 
       <section class=" row align-items-center col-md-11">
-        <div class="card__group">
+        <div class="card__group" data-aos="zoom-in">
           <div class="card border-light mb-3 col-sm-6 col-md-3">
             <div class="card-body card__firstCard">
               <h1 class="card__indexH1">ENCONTRÁ TU PRÓXIMA SALIDA</h1>
@@ -353,5 +356,13 @@
       integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
       crossorigin="anonymous"
     ></script>
+
+    <!-- animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>

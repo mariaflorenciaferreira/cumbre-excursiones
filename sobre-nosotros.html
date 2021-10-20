@@ -19,6 +19,9 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- iconos fontawesome -->
     <script
       src="https://kit.fontawesome.com/572f2def0c.js"
@@ -136,7 +139,8 @@
 
       <section class="nosotrosReview">
         <!-- testimonios / opiniones de usuarios -->
-        <div class="review1">
+        <div class="review1"
+        data-aos="fade-left">
           <img
             src="./Img/pedro.jpg"
             alt="pedro usuario cumbre"
@@ -157,9 +161,9 @@
         </div>
       </section>
 
-      <section class="nosotrosReview">
+      <section class="nosotrosReview" data-aos="fade-right" >
         <div class="review2">
-          <img
+          <img 
             src="./Img/carla.jpg"
             alt="carla usuario cumbre"
             class="review2__Img col-xs-5"
@@ -226,5 +230,13 @@
       integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
       crossorigin="anonymous"
     ></script>
+
+    <!-- animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
