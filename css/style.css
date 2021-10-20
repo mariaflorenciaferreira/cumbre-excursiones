@@ -45,12 +45,10 @@ body {
   padding: 0rem;
 }
 .navBar__link:hover {
-  background-color: #7e7d73;
-  color: whitesmoke;
+  color: red;
   text-decoration: none;
   border-radius: 0.15rem;
   padding: 0.25rem;
-  margin: 0rem;
 }
 .navBar__button {
   margin: 1rem;
@@ -67,15 +65,16 @@ body {
 .indexHero {
   display: flex;
   flex-direction: column;
+  margin: 10rem 1rem 1rem 1rem;
 }
 .indexHero__carouselIndex {
-  margin: 8rem 1rem 1rem 1rem;
+  width: 100%;
   display: inline-grid;
   align-items: center;
   justify-items: center;
 }
 .indexHero__imgCarousel {
-  width: 30rem;
+  width: 100%;
 }
 
 /* buscador de salidas */
@@ -193,8 +192,6 @@ body {
 }
 .footer__link:hover {
   text-decoration: none;
-  margin: 0rem;
-  padding: 0rem;
   color: #016236;
 }
 
@@ -284,7 +281,7 @@ body {
   background-color: #016236;
   height: 21rem;
   padding: 1rem;
-  margin: 2rem 1rem;
+  margin: 2rem 1rem 3rem 1rem;
   box-shadow: 0rem 0rem 0.5rem #7e7d73;
   border-radius: 0.2rem;
   z-index: 3;
@@ -347,16 +344,16 @@ body {
 /* bloque testimonios */
 .nosotrosReview {
   background-color: whitesmoke;
-  margin: 2rem 1rem;
+  margin-top: 3rem;
   display: flex;
 }
 
 .review1__Img {
-  height: 15rem;
+  height: 17rem;
   width: auto;
   float: right;
   border-radius: 1rem;
-  margin: 2.2rem 0rem 0rem 1rem;
+  margin: 0rem 0.5rem;
 }
 .review1__title {
   color: #7e7d73;
@@ -375,11 +372,11 @@ body {
 }
 
 .review2__Img {
-  height: 15rem;
+  height: 17rem;
   width: auto;
   float: left;
   border-radius: 1rem;
-  margin: 2.2rem 1rem 0rem 0rem;
+  margin: 0rem 0.5rem;
 }
 .review2__title {
   color: #7e7d73;
@@ -679,10 +676,6 @@ textarea {
     font-size: 1.9rem;
   }
 
-  .indexHero__imgCarousel {
-    width: 50rem;
-  }
-
   .card__group {
     display: flex;
     width: 100%;
@@ -796,43 +789,43 @@ textarea {
   }
 
   .review1__Img {
-    height: 20rem;
-    margin: 2.2rem 0rem 0rem 1rem;
+    height: 34rem;
+    margin: 2.2rem 2rem 0rem 1rem;
   }
   .review1__title {
     color: #7e7d73;
     height: 3rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     text-align: left;
     margin-left: 2rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
   .review1__body {
     color: #7e7d73;
     height: 18rem;
     font-size: 1.3rem;
     text-align: left;
-    margin: 2.3rem 15rem 1rem 1rem;
+    margin: 1rem 30rem 1rem 2rem;
   }
 
   .review2__Img {
-    height: 20rem;
-    margin: 2.2rem 1rem 0rem 0rem;
+    height: 34rem;
+    margin: 2.2rem 1rem 0rem 2.2rem;
   }
   .review2__title {
     color: #7e7d73;
     height: 3rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     text-align: right;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 8rem;
   }
   .review2__body {
     color: #7e7d73;
     height: 18rem;
     font-size: 1.3rem;
     text-align: right;
-    margin: 2.3rem 1rem 1rem 15rem;
+    margin: 2.3rem 2rem 1rem 30rem;
   }
 
   .bloqueFieldsetLeft {
@@ -952,10 +945,6 @@ input[type=reset] {
   }
   .navBar__brand {
     font-size: 2rem;
-  }
-
-  .indexHero__imgCarousel {
-    width: 70rem;
   }
 
   .card__group {
@@ -1083,23 +1072,23 @@ input[type=reset] {
   }
 
   .review1__Img {
-    height: 28rem;
+    height: 45rem;
     margin: 2.2rem 0rem 0rem 1rem;
   }
   .review1__title {
     color: #7e7d73;
     height: 3rem;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     text-align: left;
-    margin-left: 2rem;
-    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-top: 8rem;
   }
   .review1__body {
     color: #7e7d73;
     height: 18rem;
     font-size: 1.7rem;
     text-align: left;
-    margin: 2.3rem 18rem 1rem 1rem;
+    margin: 2.3rem 36rem 1rem 4rem;
   }
   .review1__higlight {
     font-size: 1.7rem;
@@ -1108,23 +1097,23 @@ input[type=reset] {
   }
 
   .review2__Img {
-    height: 28rem;
+    height: 45rem;
     margin: 2.2rem 1rem 0rem 0rem;
   }
   .review2__title {
     color: #7e7d73;
     height: 3rem;
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     text-align: right;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-right: 6rem;
+    margin-top: 6rem;
   }
   .review2__body {
     color: #7e7d73;
     height: 18rem;
     font-size: 1.7rem;
     text-align: right;
-    margin: 2.3rem 1rem 1rem 18rem;
+    margin: 2.3rem 4rem 1rem 36rem;
   }
   .review2__higlight {
     font-size: 1.7rem;
