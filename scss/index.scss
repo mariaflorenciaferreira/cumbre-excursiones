@@ -64,8 +64,7 @@ body {
     &:hover{
       color:red;
       text-decoration: none;
-      border-radius: 0.15rem;
-      padding: 0.25rem;
+      
      
   
     }
@@ -1279,7 +1278,11 @@ textarea {
 
     &__brand{
       font-size: $font-size-big;
+      margin-right: 3.5rem;
     }
+
+    
+
 
   }
 

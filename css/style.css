@@ -47,8 +47,6 @@ body {
 .navBar__link:hover {
   color: red;
   text-decoration: none;
-  border-radius: 0.15rem;
-  padding: 0.25rem;
 }
 .navBar__button {
   margin: 1rem;
@@ -945,6 +943,7 @@ input[type=reset] {
   }
   .navBar__brand {
     font-size: 2rem;
+    margin-right: 3.5rem;
   }
 
   .card__group {
