@@ -677,14 +677,8 @@ body {
   display: flex;
 }
 
-
-.fieldsetContacto {
-  display: flex;
-  padding: 1rem;
-  margin: 0rem;
-}
-
-.bloqueFieldsetLeft {
+.bloqueFieldset {
+  width: 100%;
   display: block;
   float: left;
   margin-left: 0.5rem;
@@ -693,34 +687,34 @@ body {
   color: $color-primary;
 }
 
-.bloqueFieldsetRight {
-  display: block;
-  float: right;
-  width: 20rem;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  color: $color-primary;
-  font-size: $font-size-small;
+
+
+.fieldsetContacto {
+  width: 90%;
+  display: flex;
+  padding: 1rem;
+  margin: 0.8rem 1.5rem;
+  
+  
 }
 
+
 .placeholderForm{
-  width: 20rem;
   overflow: hidden;
+ 
 }
 
 .bloqueBotones {
-  margin: 0.5rem 1rem 1rem 1.5rem;
+  margin: 1rem 1rem 1rem 8rem;
   display: flex;
 }
 
-.labelContacto{
-  width: 20rem;
-}
+
 
 input[type="submit"],
 input[type="reset"] {
   width: 5rem;
-  margin-right: 0.6rem;
+  margin-right: 2rem;
   font-size: $font-size-small;
   padding: 0.05rem;
   color: $color-secondary;
@@ -738,10 +732,15 @@ input[type="reset"]:hover {
   color: $color-ternary;
 }
 
+.textAreaTitle{
+  margin-left: 2rem;
+  font-size: $font-size-small;
+}
+
 textarea {
   width: 90%;
   height: 9rem;
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 1rem 0rem 0rem 1.5rem;
   box-sizing: border-box;
   border: 0.2rem solid $color-ternary;
   border-radius: 0.2rem;
@@ -1097,25 +1096,22 @@ textarea {
 
   // contacto +768
 
-  .bloqueFieldsetLeft {
-    width: 40rem;
-    font-size: $font-size-medium;
+  .contactoH1{
+    margin-top: 8rem;
   }
 
-  .bloqueFieldsetRight{
-    width: 40rem;
-    margin-left: 3rem;
+  .bloqueFieldset {
+    width: 100%;
     font-size: $font-size-medium;
+    margin: 1rem 2rem 1rem 8rem;
   }
 
-  .placeholderForm{
-    width: 45rem;
-    
-    
-  }
+  
+
+  
 
   .bloqueBotones {
-    margin-left: 8rem;
+    margin-left: 18rem;
     font-size: $font-size-medium;
         
   }
@@ -1124,6 +1120,11 @@ textarea {
   input[type="reset"] {
     margin-right: 2rem;
   
+  }
+
+  .textAreaTitle{
+    margin-left: 2rem;
+    font-size: $font-size-medium;
   }
 
   textarea {
@@ -1280,8 +1281,6 @@ textarea {
       font-size: $font-size-big;
       margin-right: 3.5rem;
     }
-
-    
 
 
   }
@@ -1529,27 +1528,23 @@ textarea {
   // contacto +1200
 
   .contactoH1{
-    margin-top: 15rem;
+    margin-top: 10rem;
     font-size: ($font-size-big)+2rem;
   }
 
-  .bloqueFieldsetLeft {
-    width: 60rem;
+  .bloqueFieldset {
+    width: 80%;
+    margin-left:18rem;
     
   }
 
-  .bloqueFieldsetRight{
-    width: 70rem;
-  }
+  
 
-  .placeholderForm{
-    width: 80rem;
-    
-       
-  }
+  
 
   .bloqueBotones {
-    margin-left: 15rem;
+    margin-left: 35rem;
+    margin-top: 2rem;
             
   }
 
@@ -1561,9 +1556,16 @@ textarea {
   
   }
 
+  .textAreaTitle{
+    display: block;
+    margin-left: 6rem;
+    font-size: $font-size-medium;
+  }
+
   textarea {
     height: 15rem;
-    width: 60rem;
+    width: 80rem;
+    margin-left: 6rem;
   }
 
   .location{
