@@ -62,10 +62,9 @@ body {
     padding: 0rem;
 
     &:hover{
-      color:red;
+      color:$color-primary;
       text-decoration: none;
-      
-     
+          
   
     }
 
@@ -117,7 +116,7 @@ body {
 }
   
 .card {
-  margin: 0.5rem 0rem 0rem 0rem;
+  margin: 0.5rem 0rem 0rem 1rem;
   display: inline-block;
   background-color: $color-ternary;
   
