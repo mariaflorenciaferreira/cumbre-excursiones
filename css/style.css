@@ -174,7 +174,8 @@ body {
   width: 100%;
 }
 .footer__logo {
-  height: 4vh;
+  height: 3vh;
+  margin-top: 0.1rem;
   overflow: hidden;
 }
 .footer__shortcuts {
