@@ -188,15 +188,34 @@ body {
   
 /* blog shop index */
 
+.indexBlog__Heading{
+  color: $color-primary;
+  font-size:$font-size-medium ;
+  text-align: center;
+  margin: 2rem 0rem;
+  letter-spacing: 0.4rem;
+}
+
+
 .indexBlog {
   display: grid;
   justify-items: center;
   margin-left: 0.5rem;
 
+  
+
+  &__TopHeading{
+    color: $color-primary;
+    font-size: $font-size-small;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+
   &__img {
     width: 25rem;
     height: auto;
     background-size: cover;
+    margin-top: 1rem;
   }
 
   &__title {
@@ -221,7 +240,7 @@ body {
     border-radius: 0.2rem;
     font-size: $font-size-small;
     padding: 0.2rem;
-    margin: 0rem 0rem 5rem 1rem;
+    margin: 0rem 0rem 2rem 1rem;
     background-color: $color-ternary;
     color:$color-primary;
     text-align: center;
@@ -947,11 +966,27 @@ textarea {
 
   // index blog shop +768
 
+  .indexBlog__Heading{
+    
+    font-size:($font-size-medium)+0.3rem ;
+    margin: 2.5rem 0rem 2rem 1.3rem;
+    letter-spacing: 0.5rem;
+  }
+
   .indexBlog {
     display: flex;
     align-items: center;
     justify-items: center;
     margin: 1rem 0rem 1rem 9rem;
+
+    &__TopHeading{
+      font-size: $font-size-medium;
+      text-align: left;
+      letter-spacing: 0.1rem;
+      margin: 0rem 2rem 0.5rem 1.5rem;
+    }
+
+    
 
     &__img{
       width: 30rem;
@@ -1348,9 +1383,24 @@ textarea {
 
   // index blog shop +1200
 
+  .indexBlog__Heading{
+    
+    font-size:($font-size-big)+0.7rem;
+    margin: 3rem 0rem 3rem 1.3rem;
+    letter-spacing: 0.7rem;
+  }
+
   .indexBlog {
    
     margin-left: 20rem;
+
+    &__TopHeading{
+
+      font-size: ($font-size-big)+0.2rem;
+      text-align: left;
+      letter-spacing: 0.2rem;
+      margin: 1rem 2rem 1rem 1.5rem;
+    }
 
     &__img{
       width: 40rem;

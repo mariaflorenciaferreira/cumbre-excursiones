@@ -11248,15 +11248,30 @@ body {
 }
 
 /* blog shop index */
+.indexBlog__Heading {
+  color: #016236;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 2rem 0rem;
+  letter-spacing: 0.4rem;
+}
+
 .indexBlog {
   display: grid;
   justify-items: center;
   margin-left: 0.5rem;
 }
+.indexBlog__TopHeading {
+  color: #016236;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
 .indexBlog__img {
   width: 25rem;
   height: auto;
   background-size: cover;
+  margin-top: 1rem;
 }
 .indexBlog__title {
   font-size: 1.36rem;
@@ -11277,7 +11292,7 @@ body {
   border-radius: 0.2rem;
   font-size: 1.2rem;
   padding: 0.2rem;
-  margin: 0rem 0rem 5rem 1rem;
+  margin: 0rem 0rem 2rem 1rem;
   background-color: whitesmoke;
   color: #016236;
   text-align: center;
@@ -11816,11 +11831,23 @@ textarea {
     width: 12rem;
   }
 
+  .indexBlog__Heading {
+    font-size: 2rem;
+    margin: 2.5rem 0rem 2rem 1.3rem;
+    letter-spacing: 0.5rem;
+  }
+
   .indexBlog {
     display: flex;
     align-items: center;
     justify-items: center;
     margin: 1rem 0rem 1rem 9rem;
+  }
+  .indexBlog__TopHeading {
+    font-size: 1.7rem;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    margin: 0rem 2rem 0.5rem 1.5rem;
   }
   .indexBlog__img {
     width: 30rem;
@@ -12090,8 +12117,20 @@ input[type=reset] {
     width: 19rem;
   }
 
+  .indexBlog__Heading {
+    font-size: 2.7rem;
+    margin: 3rem 0rem 3rem 1.3rem;
+    letter-spacing: 0.7rem;
+  }
+
   .indexBlog {
     margin-left: 20rem;
+  }
+  .indexBlog__TopHeading {
+    font-size: 2.2rem;
+    text-align: left;
+    letter-spacing: 0.2rem;
+    margin: 1rem 2rem 1rem 1.5rem;
   }
   .indexBlog__img {
     width: 40rem;
