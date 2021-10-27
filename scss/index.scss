@@ -263,20 +263,20 @@ body {
 
   &__Top{
     display: flex;
-    
-    
+   
   }
 
   &__blockLogo{
-    width: 5rem;
-    
-   
+    width: 6rem;
+  
  }
 
  &__block{
-  height: auto;
+    
    width: 12rem;
-   margin: 0.5rem;
+   height: 8rem;
+   margin-top: 0.7rem ;
+   border-right: 0.05rem solid $color-ternary ;
 
    
  }
@@ -284,7 +284,9 @@ body {
  &__logo {
    display: inline-block;
    height: 8vh;
-   padding: 0.2rem;
+   padding: 0.4rem;
+   overflow: hidden;
+   margin-right: 2rem;
 
    
  }
@@ -293,9 +295,9 @@ body {
   color:$color-ternary;
   font-size: $font-size-small;
   margin: 1.5rem 2rem 1rem 0rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 
     &:hover{
       text-decoration: none;
@@ -304,29 +306,49 @@ body {
    }
   }
 
- &__body{
+ &__LocationBody{
    font-size: ($font-size-small*0.9);
    color: $color-ternary;
    text-align: left;
    margin-top: 0.8rem;
+   overflow: hidden;
+  
 
+ }
+
+ 
+
+ &__link{
+  text-decoration: none;
+  font-size: $font-size-small;
+  color: $color-ternary;
+  overflow: hidden;
+  text-align: left;
+
+  &:hover{
+    text-decoration: none;
+    color:$color-primary;
+  }
 
  }
 
  &__shortcuts {
-    display: flex;
-   flex-direction: column;
-  margin-right: 1.5rem; 
-   
- }
+  display: flex;
+ flex-direction: column;
+  margin-right: 1rem; 
+  margin-top: 1rem;
+ 
+}
 
- &__link {
+ &__social {
    
    text-decoration: none;
    text-align: right;
-   font-size: $font-size-medium;
+   font-size: ($font-size-small+0.2rem);
    color: $color-ternary;
    overflow: hidden;
+   margin-right: 1.8rem;
+   margin-top: 0.2rem;
    
 
    
@@ -334,6 +356,18 @@ body {
      text-decoration: none;
      color:$color-primary;
    }
+ }
+
+ &__Bottom{
+   display: flex;
+   width: 100%;
+ }
+
+ &__licencias{
+   color: $color-ternary;
+   text-align: center;
+   width: 100%;
+   font-size: $font-size-small;
  }
 
 
@@ -1059,21 +1093,64 @@ textarea {
 
   .footer{
 
+    &__blockLogo{
+      width: 9rem;
+   
+   }
+
+    &__block{
+      width:22rem;
+      height: 11rem;
+      margin-top: 0.7rem ;
+      border-right: 0.06rem solid $color-ternary ;
+   
+    }
+
     &__logo{
-      height: 6vh;
+      height: 11vh;
+      
       
     }
 
-    &__shortcuts{
-      margin-left: 28rem;
-      margin-top: 0.2rem;
+    &__location{
+      font-size: $font-size-medium;
     }
+
+    &__LocationBody{
+      font-size: $font-size-small;
+
+    }
+
 
     &__link{
       font-size: $font-size-medium;
-      margin-right: 2rem;
+      letter-spacing: 0.2rem;
+      
      
     }
+
+    &__shortcuts{
+      width: 22rem;
+      flex-direction: row;
+      margin: 3rem 2rem 0rem 6rem;  
+    
+    }
+
+    &__social{
+      font-size: ($font-size-medium+0.5rem);
+      margin: 1rem;
+
+    }
+
+    &__Bottom{
+      margin-top: 2rem;
+    }
+
+    &__licencias{
+      font-size: $font-size-medium;
+    }
+
+
 
   }
 
@@ -1491,22 +1568,57 @@ textarea {
 
   .footer{
 
-    &__logo{
-      height: 5vh;
+    &__block{
+      width:36rem;
+      height: 15rem;
+      margin-top: 1.5rem ;
+      margin-left: 3rem;
+      border-right: 0.08rem solid $color-ternary ;
+   
     }
 
-    &__shortcuts{
-      margin-left: 54rem;
-      margin-top: 1rem;
+    &__logo{
+      height: 14vh;
+    }
 
+    &__location{
+      font-size: ($font-size-medium+0.3rem);
+      margin: 2rem;
       
     }
 
-    &__link{
+    &__LocationBody{
       font-size: $font-size-medium;
-      margin-right: 3rem;
+      margin-top: 2rem;
+      margin-left: 5rem;
+
+    }
+
+    &__link{
+      font-size: $font-size-big;
+      letter-spacing: 0.4rem;
+      margin-left: 5rem;
+      line-height: 4rem;
+      
      
     }
+
+  
+    &__shortcuts{
+      width: 30rem;
+      
+      
+    }
+
+    &__social{
+      font-size: ($font-size-big+0.5rem);
+
+      margin: 3.5rem 0rem 0rem 7rem;
+
+    }
+
+
+    
 
   }
 

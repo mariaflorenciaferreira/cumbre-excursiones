@@ -11311,51 +11311,79 @@ body {
   display: flex;
 }
 .footer__blockLogo {
-  width: 5rem;
+  width: 6rem;
 }
 .footer__block {
-  height: auto;
   width: 12rem;
-  margin: 0.5rem;
+  height: 8rem;
+  margin-top: 0.7rem;
+  border-right: 0.05rem solid whitesmoke;
 }
 .footer__logo {
   display: inline-block;
   height: 8vh;
-  padding: 0.2rem;
+  padding: 0.4rem;
+  overflow: hidden;
+  margin-right: 2rem;
 }
 .footer__location {
   color: whitesmoke;
   font-size: 1.2rem;
   margin: 1.5rem 2rem 1rem 0rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 .footer__location:hover {
   text-decoration: none;
   color: #016236;
 }
-.footer__body {
+.footer__LocationBody {
   font-size: 1.08rem;
   color: whitesmoke;
   text-align: left;
   margin-top: 0.8rem;
-}
-.footer__shortcuts {
-  display: flex;
-  flex-direction: column;
-  margin-right: 1.5rem;
+  overflow: hidden;
 }
 .footer__link {
   text-decoration: none;
-  text-align: right;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: whitesmoke;
   overflow: hidden;
+  text-align: left;
 }
 .footer__link:hover {
   text-decoration: none;
   color: #016236;
+}
+.footer__shortcuts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.footer__social {
+  text-decoration: none;
+  text-align: right;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  overflow: hidden;
+  margin-right: 1.8rem;
+  margin-top: 0.2rem;
+}
+.footer__social:hover {
+  text-decoration: none;
+  color: #016236;
+}
+.footer__Bottom {
+  display: flex;
+  width: 100%;
+}
+.footer__licencias {
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  font-size: 1.2rem;
 }
 
 .h1, .contactoH1, .shopH1, #nosotrosH1, .excursionesH1 {
@@ -11887,16 +11915,42 @@ textarea {
     width: 28rem;
   }
 
-  .footer__logo {
-    height: 6vh;
+  .footer__blockLogo {
+    width: 9rem;
   }
-  .footer__shortcuts {
-    margin-left: 28rem;
-    margin-top: 0.2rem;
+  .footer__block {
+    width: 22rem;
+    height: 11rem;
+    margin-top: 0.7rem;
+    border-right: 0.06rem solid whitesmoke;
+  }
+  .footer__logo {
+    height: 11vh;
+  }
+  .footer__location {
+    font-size: 1.7rem;
+  }
+  .footer__LocationBody {
+    font-size: 1.2rem;
   }
   .footer__link {
     font-size: 1.7rem;
-    margin-right: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .footer__shortcuts {
+    width: 22rem;
+    flex-direction: row;
+    margin: 3rem 2rem 0rem 6rem;
+  }
+  .footer__social {
+    font-size: 2.2rem;
+    margin: 1rem;
+  }
+  .footer__Bottom {
+    margin-top: 2rem;
+  }
+  .footer__licencias {
+    font-size: 1.7rem;
   }
 
   .excursionesH1 {
@@ -12182,16 +12236,37 @@ input[type=reset] {
     font-size: 1.4rem;
   }
 
-  .footer__logo {
-    height: 5vh;
+  .footer__block {
+    width: 36rem;
+    height: 15rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    border-right: 0.08rem solid whitesmoke;
   }
-  .footer__shortcuts {
-    margin-left: 54rem;
-    margin-top: 1rem;
+  .footer__logo {
+    height: 14vh;
+  }
+  .footer__location {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  .footer__LocationBody {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
   }
   .footer__link {
-    font-size: 1.7rem;
-    margin-right: 3rem;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    margin-left: 5rem;
+    line-height: 4rem;
+  }
+  .footer__shortcuts {
+    width: 30rem;
+  }
+  .footer__social {
+    font-size: 2.5rem;
+    margin: 3.5rem 0rem 0rem 7rem;
   }
 
   .excursionesH1 {
