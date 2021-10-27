@@ -11305,26 +11305,53 @@ body {
 /* footer */
 .footer {
   background-color: #7e7d73;
-  display: flex;
   width: 100%;
 }
-.footer__brand {
-  color: #016236;
+.footer__Top {
+  display: flex;
+}
+.footer__blockLogo {
+  width: 5rem;
+}
+.footer__block {
+  height: auto;
+  width: 12rem;
+  margin: 0.5rem;
 }
 .footer__logo {
-  height: 3vh;
-  margin-top: 0.1rem;
-  overflow: hidden;
+  display: inline-block;
+  height: 8vh;
+  padding: 0.2rem;
+}
+.footer__location {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 1.5rem 2rem 1rem 0rem;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+.footer__location:hover {
+  text-decoration: none;
+  color: #016236;
+}
+.footer__body {
+  font-size: 1.08rem;
+  color: whitesmoke;
+  text-align: left;
+  margin-top: 0.8rem;
 }
 .footer__shortcuts {
-  width: 10rem;
-  margin: 0.5rem 0rem 0rem 12rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
 }
 .footer__link {
   text-decoration: none;
-  font-size: 1.2rem;
+  text-align: right;
+  font-size: 1.7rem;
   color: whitesmoke;
-  margin: 0rem 0.8rem 0rem 0rem;
+  overflow: hidden;
 }
 .footer__link:hover {
   text-decoration: none;

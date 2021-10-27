@@ -256,39 +256,89 @@ body {
 
 
 /* footer */
+
 .footer {
   background-color: $color-secondary;
-  display: flex;
-  width: 100%;
- 
-  &__brand{
-    color: $color-primary;
+   width: 100%;
 
-  }
-
-  &__logo {
-    height: 3vh;
-    margin-top: 0.1rem;
-    overflow: hidden;
-  }
-
-  &__shortcuts {
-    width: 10rem;
-    margin: 0.5rem 0rem 0rem 12rem;
-  }
-
-  &__link {
-    text-decoration: none;
-    font-size: $font-size-small;
-    color: $color-ternary;
-    margin: 0rem 0.8rem 0rem 0rem;
-
+  &__Top{
+    display: flex;
     
+    
+  }
+
+  &__blockLogo{
+    width: 5rem;
+    
+   
+ }
+
+ &__block{
+  height: auto;
+   width: 12rem;
+   margin: 0.5rem;
+
+   
+ }
+
+ &__logo {
+   display: inline-block;
+   height: 8vh;
+   padding: 0.2rem;
+
+   
+ }
+
+ &__location{
+  color:$color-ternary;
+  font-size: $font-size-small;
+  margin: 1.5rem 2rem 1rem 0rem;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+
     &:hover{
       text-decoration: none;
       color:$color-primary;
-    }
+
+   }
   }
+
+ &__body{
+   font-size: ($font-size-small*0.9);
+   color: $color-ternary;
+   text-align: left;
+   margin-top: 0.8rem;
+
+
+ }
+
+ &__shortcuts {
+    display: flex;
+   flex-direction: column;
+  margin-right: 1.5rem; 
+   
+ }
+
+ &__link {
+   
+   text-decoration: none;
+   text-align: right;
+   font-size: $font-size-medium;
+   color: $color-ternary;
+   overflow: hidden;
+   
+
+   
+   &:hover{
+     text-decoration: none;
+     color:$color-primary;
+   }
+ }
+
+
+
+  
     
 }
 
