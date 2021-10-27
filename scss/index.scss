@@ -775,6 +775,24 @@ body {
 
 
   }
+
+  &__button{
+    border: 0rem;
+    border-radius: 0.3rem;
+    font-size: $font-size-small;
+    color: $color-primary;
+    background-color: $color-ternary;
+    text-align: center;
+    padding: 0.2rem;
+    
+    margin: 0.1rem 0rem 0.5rem 0rem;
+
+    &:hover{
+      background-color: $color-primary;
+      color: $color-ternary;
+
+    }
+  }
 }
 
 // CONTACTO CUMBRE
@@ -1291,9 +1309,6 @@ textarea {
     margin: 1rem 2rem 1rem 8rem;
   }
 
-  
-
-  
 
   .bloqueBotones {
     margin-left: 18rem;
@@ -1416,6 +1431,10 @@ textarea {
       margin: 0rem 0.5rem 0.5rem 1.8rem;
       
   
+    }
+
+    &__button{
+      font-size:($font-size-small)+0.2rem ;
     }
 
   }
@@ -1876,6 +1895,8 @@ textarea {
       margin: 0.5rem 0rem 1rem 11rem;
         
     }
+
+    
    
 
   }
@@ -1918,10 +1939,15 @@ textarea {
       font-size: $font-size-medium;
       width: 15rem;
       height: 8rem;
-      margin: 0rem 0.5rem 0.5rem 7rem;
+      margin: 0rem 0.5rem 0rem 7rem;
       line-height: 1.9rem;
       
   
+    }
+
+    &__button{
+      font-size:$font-size-medium ;
+      margin-bottom: 1.5rem;
     }
 
   }

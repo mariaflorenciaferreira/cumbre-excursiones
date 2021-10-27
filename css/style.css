@@ -11690,6 +11690,20 @@ body {
   line-height: 1.5rem;
   overflow-wrap: break-word;
 }
+.shopCategory__button {
+  border: 0rem;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  color: #016236;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0.1rem 0rem 0.5rem 0rem;
+}
+.shopCategory__button:hover {
+  background-color: #016236;
+  color: whitesmoke;
+}
 
 .formContacto {
   background-image: url("../Img/a-n-v-e-s-h-4W4EiTKqDcs-unsplash-min-min.jpg");
@@ -12149,6 +12163,9 @@ input[type=reset] {
     height: 5rem;
     margin: 0rem 0.5rem 0.5rem 1.8rem;
   }
+  .shopCategory__button {
+    font-size: 1.4rem;
+  }
 
   .pagina404__imgContainer {
     width: 60vw;
@@ -12490,8 +12507,12 @@ input[type=reset] {
     font-size: 1.7rem;
     width: 15rem;
     height: 8rem;
-    margin: 0rem 0.5rem 0.5rem 7rem;
+    margin: 0rem 0.5rem 0rem 7rem;
     line-height: 1.9rem;
+  }
+  .shopCategory__button {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
   }
 
   .pagina404__imgContainer {
