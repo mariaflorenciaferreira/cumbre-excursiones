@@ -3,7 +3,11 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+
 $carousel-control-icon-width:4vw;
+$form-floating-height: 9vh;
+$form-floating-line-height:30;
+$input-font-size:2.5vh;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -879,7 +883,8 @@ textarea {
   box-sizing: border-box;
   border: 0.2rem solid $color-ternary;
   border-radius: 0.2rem;
-  background-color: inherit;
+  background-color:$color-ternary;
+  
   resize: none;
   outline: none;
 }
@@ -933,7 +938,8 @@ textarea {
     justify-items: left;
     font-size: $font-size-small;
     color: $color-secondary;
-    margin: 1rem 1.5rem 0rem 0rem;
+    margin: 3rem 1.5rem 0rem 0rem;
+    line-height:2rem;
     cursor: default;
     overflow-wrap:break-word;
   }
@@ -1352,6 +1358,8 @@ textarea {
     &__datos{
       width:32rem;
       font-size: ($font-size-small)+0.2rem;
+      margin-top: 8rem;
+      line-height: 3rem;
     }
 
     &__logo{
@@ -1831,6 +1839,7 @@ textarea {
       font-size: $font-size-big;
       height: 10rem;
       margin-left: 5rem;
+      
      
     }
 
@@ -1848,6 +1857,7 @@ textarea {
     &__datos{
       width:45rem;
       font-size: $font-size-medium;
+      line-height: 4rem;
     }
 
     &__logo{
