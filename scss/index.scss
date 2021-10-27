@@ -261,7 +261,10 @@ body {
   display: flex;
   width: 100%;
  
+  &__brand{
+    color: $color-primary;
 
+  }
 
   &__logo {
     height: 3vh;
@@ -399,12 +402,10 @@ body {
 /* grid sobre nosotros*/
 
 .nosotrosGallery {
-  background-color: $color-primary;
-  height: 21rem;
+  background-color: $color-ternary;
+  height: 30rem;
   padding: 1rem;
   margin: 2rem 1rem 3rem 1rem;
-  box-shadow: 0rem 0rem 0.5rem $color-secondary;
-  border-radius: 0.2rem;
   z-index: 3;
   display: grid;
 
@@ -425,7 +426,7 @@ body {
 .imgGeneral{
   background-size: cover;
   border-radius: 0.2rem;
-  height: 9rem;
+  height: 13rem;
 }
 
 
@@ -434,13 +435,14 @@ body {
   grid-area: "foto1";
   background-image: url(../Img/mapa.jpg);
   
+  
 }
 
 .foto2 {
   @extend .imgGeneral;
   grid-area: "foto2";
   grid-row: span 2;
-  height: 18.5rem;
+  height: 27rem;
   background-image: url(../Img/usuario-perro.jpg);
   
 }
@@ -478,7 +480,7 @@ body {
 .gridNosotros:hover {
   transform: scale(1.1);
   transition: 0.5s;
-  box-shadow: 0rem 0rem 0.3rem $color-primary;
+  box-shadow: 0rem 0rem 0.3rem $color-secondary;
 }
 
 /* bloque testimonios */
@@ -500,7 +502,7 @@ body {
 .review1{
 
   &__Img {
-    height: 17rem;
+    height: 25rem;
     width: auto;
     float: right;
     border-radius: 1rem;
@@ -508,8 +510,8 @@ body {
   }
 
   &__title {
-    @include reviewsStyle($color-secondary,3rem , $font-size-medium, left);
-    margin-left: 2rem;
+    @include reviewsStyle($color-secondary,3rem , $font-size-medium, center);
+    margin-top: 4rem;
   }
 
   &__body{
@@ -523,7 +525,7 @@ body {
 .review2{
 
   &__Img {
-    height: 17rem;
+    height: 25rem;
     width: auto;
     float: left;
     border-radius: 1rem;
@@ -532,25 +534,26 @@ body {
   }
   
   &__title{
-    @include reviewsStyle($color-secondary,3rem ,$font-size-medium, right);
-    margin-right: 2rem;
+    @include reviewsStyle($color-secondary,3rem ,$font-size-medium, center);
+    margin-top: 4rem;
   }
 
   &__body{
 
     @include reviewsStyle($color-secondary,18rem ,$font-size-small, right);
-    margin: 1rem 1rem 2rem 10rem;
+    margin: 1rem 2rem 2rem 10rem;
     overflow-wrap: break-word;
 
   }
 }
 
 /* frase testimonios */
-.higlight {
+.review__higlight {
   font-style: italic;
-  font-weight: bolder;
-  font-size: $font-size-small+0.02;
-  padding: 0rem 0.5rem 0rem 3rem;
+  font-weight: bold;
+  font-size: ($font-size-small+0.2rem);
+  color:$color-secondary;
+  
 
 }
 
@@ -1081,15 +1084,15 @@ textarea {
   // GRID NOSOTROS +768
 
   .nosotrosGallery{
-    height: 29rem;
+    height: 39rem;
   }
 
   .imgGeneral{
-    height: 13rem;
+    height: 18rem;
   }
 
   .foto2{
-    height: 26rem;
+    height: 36.5rem;
   }
 
   // testimonios +768
@@ -1101,19 +1104,19 @@ textarea {
   .review1{
 
     &__Img {
-      height: 34rem;
-      margin: 2.2rem 2rem 0rem 1rem;
+      height: 36rem;
+      margin: 2.2rem 8rem 0rem 2rem;
     }
   
     &__title {
-      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.4rem, left);
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.8rem, center);
       margin-left: 2rem;
       margin-top:8rem;
     }
   
     &__body{
-      @include reviewsStyle($color-secondary,18rem ,($font-size-small)+0.1rem, left);
-      margin: 1rem 30rem 1rem 2rem;
+      @include reviewsStyle($color-secondary,18rem ,$font-size-medium, left);
+      margin: 1rem 33rem 1rem 9rem;
       
        
     }
@@ -1122,23 +1125,32 @@ textarea {
   .review2{
 
     &__Img {
-      height: 34rem;
-      margin: 2.2rem 1rem 0rem 2.2rem;
-    }
+      height: 36rem;
+      margin: 2.2rem 2rem 2rem 8rem;
+    } 
 
     &__title {
-      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.4rem, right);
+      @include reviewsStyle($color-secondary,3rem , ($font-size-medium)+0.8rem, center);
       margin-left: 2rem;
       margin-top:8rem;
     }
 
     &__body{
-      @include reviewsStyle($color-secondary,18rem ,($font-size-small)+0.1rem, right);
-      margin: 2.3rem 2rem 1rem 30rem;
+      @include reviewsStyle($color-secondary,18rem ,$font-size-medium+0.2rem, right);
+      margin: 1rem 9rem 1rem 33rem;
        
     }
 
   }
+
+  /* frase testimonios */
+.review__higlight {
+  
+  font-size: $font-size-medium;
+  
+  
+
+}
 
   // contacto +768
 
@@ -1517,73 +1529,75 @@ textarea {
   // GRID NOSOTROS +1200
 
   .nosotrosGallery{
-    height: 32rem;
+    height: 41rem;
   }
 
   .imgGeneral{
-    height: 14rem;
+    height: 19rem;
   }
 
   .foto2{
-    height: 28rem;
+    height: 38rem;
   }
 
   // testimonios +1200
 
   .nosotrosReview{
     margin:2rem 2.5rem 8rem 2.5rem;
+    line-height: 3.3rem;
   }
 
   .review1{
 
     &__Img {
-      height: 45rem;
-      margin: 2.2rem 0rem 0rem 1rem;
+      height: 50rem;
+      margin: 2.2rem 10rem 0rem 2rem;
     }
   
     &__title {
-      @include reviewsStyle($color-secondary,3rem , ($font-size-big)+0.4rem, left);
+      @include reviewsStyle($color-secondary,3rem , ($font-size-big)+0.4rem, center);
       margin-left: 6rem;
-      margin-top:8rem;
+      margin-top:14rem;
     }
   
     &__body{
       @include reviewsStyle($color-secondary,18rem ,$font-size-medium, left);
-      margin: 2.3rem 36rem 1rem 4rem;
+      margin: 2.3rem 40rem 1rem 20rem;
        
     }
 
-    &__higlight{
-      font-size: $font-size-medium;
-      margin-left: 3.5rem;
-      font-style: italic;
-    }
+    
   }
   
   .review2{
 
     &__Img {
-      height: 45rem;
-      margin: 2.2rem 1rem 0rem 0rem;
+      height: 50rem;
+      margin: 2.2rem 2rem 0rem 20rem;
     }
 
     &__title {
-      @include reviewsStyle($color-secondary,3rem , ($font-size-big)+0.4rem, right);
+      @include reviewsStyle($color-secondary,3rem , ($font-size-big)+0.4rem, center);
       margin-right: 6rem;
-      margin-top:6rem;
+      margin-top:14rem;
     }
 
     &__body{
       @include reviewsStyle($color-secondary,18rem ,$font-size-medium, right);
-      margin: 2.3rem 4rem 1rem 36rem;
+      margin: 2.3rem 11rem 1rem 45rem;
        
     }
 
-    &__higlight{
-      font-size: $font-size-medium;
-      margin-left: 3.5rem;
-      font-style: italic;
-    }
+   
+
+  }
+
+ /* frase testimonios */
+  .review__higlight {
+  
+    font-size: ($font-size-medium+0.3);
+    margin-left: 2.3rem;
+   
 
   }
 
