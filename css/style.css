@@ -11373,7 +11373,7 @@ body {
 .footer__shortcuts {
   display: flex;
   flex-direction: row;
-  margin: 1rem 0rem 0rem 23rem;
+  margin: 1rem 0rem 0rem 25rem;
   width: 100%;
   align-content: space-between;
 }
@@ -11669,7 +11669,7 @@ body {
   background: whitesmoke;
   width: 85%;
   text-align: center;
-  margin: 1rem 0.5rem;
+  margin: 1rem 1rem 1rem 2rem;
   justify-items: center;
   align-items: center;
   cursor: default;
