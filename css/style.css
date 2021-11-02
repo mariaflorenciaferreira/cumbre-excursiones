@@ -11421,13 +11421,16 @@ body {
   height: 3rem;
   color: #7e7d73;
   text-align: center;
+  align-items: center;
   letter-spacing: 0.4rem;
-  margin: 1rem 0rem 2rem 0rem;
+  margin: 1rem 0rem 1rem 3rem;
 }
 
 .month {
   display: flex;
-  height: 17rem;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
   width: 96%;
   margin-bottom: 1rem;
 }
@@ -11435,14 +11438,13 @@ body {
 .blockExcursion {
   height: auto;
   align-items: center;
-  margin: 0rem 0.5rem;
+  margin: 0rem 1rem 0rem 10rem;
   /* fotos de proximas excursiones*/
 }
 .blockExcursion__imgContainer {
-  height: 9rem;
-  width: 12rem;
+  height: 90%;
+  width: 80%;
   display: inline-block;
-  align-items: center;
   background-size: cover;
 }
 .blockExcursion__excImg {
@@ -11451,10 +11453,11 @@ body {
 }
 .blockExcursion__excTitle {
   color: #016236;
-  width: 12rem;
+  height: 3rem;
   text-align: center;
   font-size: 1.4rem;
-  margin: 0.4rem 0rem;
+  align-items: center;
+  margin-right: 5rem;
 }
 .blockExcursion__excBody {
   color: #7e7d73;
@@ -11463,6 +11466,7 @@ body {
   letter-spacing: 0.06rem;
   text-align: center;
   line-height: 1rem;
+  margin-right: 5rem;
 }
 
 .nosotrosTop {
@@ -11660,10 +11664,10 @@ body {
 
 .shopCategory {
   display: inline-block;
-  border-radius: 2rem;
+  border-radius: 0.8rem;
   border: 0.14rem solid #7e7d73;
   background: whitesmoke;
-  width: 9rem;
+  width: 85%;
   text-align: center;
   margin: 1rem 0.5rem;
   justify-items: center;
@@ -11685,10 +11689,9 @@ body {
   margin-top: 1rem;
 }
 .shopCategory__imgContainer {
-  width: 7rem;
-  height: 6rem;
+  width: 80%;
   overflow: hidden;
-  margin: 0.5rem 0rem 0rem 1rem;
+  margin-left: 3rem;
 }
 .shopCategory__Img {
   width: 100%;
@@ -11698,9 +11701,9 @@ body {
 .shopCategory__body {
   color: #7e7d73;
   font-size: 1.2rem;
-  width: 6rem;
+  width: 70%;
   text-align: center;
-  margin: 0.5rem 0.5rem 0.5rem 1.3rem;
+  margin: 0.5rem 0.5rem 0.5rem 5rem;
   line-height: 1.5rem;
   overflow-wrap: break-word;
 }
@@ -11749,15 +11752,15 @@ body {
 }
 
 .bloqueBotones {
-  margin: 1rem 1rem 1rem 8rem;
+  margin: 1rem 1rem 1rem 5.5rem;
   display: flex;
 }
 
 input[type=submit],
 input[type=reset] {
-  width: 5rem;
-  margin-right: 2rem;
-  font-size: 1.2rem;
+  width: 8rem;
+  margin-right: 3rem;
+  font-size: 1.4rem;
   padding: 0.05rem;
   color: #7e7d73;
   background-color: whitesmoke;
@@ -12007,6 +12010,7 @@ textarea {
   }
 
   .month {
+    flex-direction: row;
     width: 100%;
     margin: 0rem 0rem 3.5rem 10rem;
     height: 25rem;
@@ -12336,6 +12340,7 @@ input[type=reset] {
   }
 
   .month {
+    flex-direction: row;
     margin: 0rem 0rem 3.5rem 24rem;
     height: 30rem;
   }
